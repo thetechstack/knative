@@ -83,6 +83,6 @@ extra:
   branch: !!python/object/apply:os.getenv ["SAMPLES_BRANCH", "main"]
   analytics:
     provider: google
-    property: G-YRMNFYE32R
+    property: G-ETGL163DQH
   version:
     provider: mike
