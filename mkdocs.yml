@@ -1,12 +1,12 @@
 INHERIT: config/nav.yml
 
-site_name: Knative
-site_url: https://knative.dev/docs
-site_description: Knative Documentation
+site_name: Knative中文网
+site_url: https://heapoverflow.cn/knative/docs
+site_description: Knative官方文档中文版
 extra_css:
   - stylesheets/extra.css
 
-repo_url: https://github.com/knative/docs
+repo_url: https://github.com/thetechstack/knative
 edit_uri: edit/main/docs
 
 theme:
@@ -14,6 +14,7 @@ theme:
   logo: images/logo/rgb/knative-logo-rgb.png
   favicon: images/favicon.ico
   custom_dir: overrides
+  locale: zh
   features:
     - navigation.tabs
     - navigation.tracking

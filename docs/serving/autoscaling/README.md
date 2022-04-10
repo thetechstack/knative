@@ -1,4 +1,4 @@
-# Autoscaling
+# 自动伸缩
 
 Knative Serving provides automatic scaling, or _autoscaling_, for applications to match incoming demand. This is provided by default, by using the Knative Pod Autoscaler (KPA).
 

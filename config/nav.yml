@@ -4,29 +4,29 @@ nav:
 ###############################################################################
     # Home page
 ###############################################################################
-    - Home: index.md
+    - 首页: index.md
 ###############################################################################
     # Getting started
 ###############################################################################
-    - Tutorial:
-        - Tutorial introduction: getting-started/README.md
-        - Install Knative using quickstart: getting-started/quickstart-install.md
-        - Using Knative Serving:
+    - 教程:
+        - 教程介绍: getting-started/README.md
+        - 通过quickstart安装Knative: getting-started/quickstart-install.md
+        - 使用Knative Serving:
           - First Knative Service: getting-started/first-service.md
           - Scaling to Zero: getting-started/first-autoscale.md
           - Traffic Splitting: getting-started/first-traffic-split.md
-        - Using Knative Eventing:
+        - 使用Knative Eventing:
           - Introducing Knative Eventing: getting-started/getting-started-eventing.md
           - Sources, Brokers, Triggers, Sinks: getting-started/first-broker.md
           - Using a Knative Service as a source: getting-started/first-source.md
           - Using Triggers and sinks: getting-started/first-trigger.md
-        - What's Next?: getting-started/next-steps.md
+        - 接下来?: getting-started/next-steps.md
         - Clean Up: getting-started/clean-up.md
 ###############################################################################
     # Installing
 ###############################################################################
-    - Installing:
-      - About installing Knative: install/README.md
+    - 安装:
+      - 关于安装Knative: install/README.md
       - Install Knative using quickstart: install/quickstart-install.md
       # YAML Installation
       - Install Knative with YAML:
@@ -226,12 +226,12 @@ nav:
 ###############################################################################
     # Code samples
 ###############################################################################
-    - Code samples:
+    - 代码示例:
       - Code sample overview: samples/README.md
       - Serving code samples: samples/serving.md
       - Eventing code samples: samples/eventing.md
     # Reference docs
-    - Reference:
+    - 参考:
       - Reference overview: reference/README.md
       - API:
         - Serving: reference/api/serving-api.md
@@ -240,14 +240,14 @@ nav:
       - Concepts:
         - Duck types: reference/concepts/duck-typing.md
       - Security: reference/security/README.md
-    - Community:
+    - 社区:
       - Welcome to the community: community/README.md
       - Contribute to Knative: community/contributing.md
       - About the community: community/about.md
-    - About:
+    - 关于:
       - Testimonials: about/testimonials.md
       - Case studies:
         - deepc: about/case-studies/deepc.md
         - Outfit7: about/case-studies/outfit7.md
         - Puppet: about/case-studies/puppet.md
-    - Blog: /blog/
+#    - Blog: /blog/
