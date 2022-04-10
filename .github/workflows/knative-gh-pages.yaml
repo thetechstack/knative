@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.8'
 
-      - run: pip install --upgrade pip && pip install mkdocs-material mkdocs-exclude mkdocs-macros-plugin mkdocs-awesome-pages-plugin mkdocs-redirects semver pygithub mkdocs-rss-plugin
+      - run: pip install --upgrade pip && pip install mkdocs-material==8.2.7 mkdocs-exclude>=1.0 mkdocs-macros-plugin>=0.5.12 mkdocs-awesome-pages-plugin>=2.5 mkdocs-redirects>=1.0.3 mkdocs-rss-plugin>=0.18.0 pygithub==1.55 semver==2.13.0
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Publish docs
         run: mkdocs gh-deploy
