@@ -754,8 +754,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-the-knative-quickstart-plugin" class="md-nav__link">
-    Install the Knative quickstart plugin
+  <a href="#knative-quickstart" class="md-nav__link">
+    安装Knative quickstart 插件
   </a>
   
 </li>
@@ -4333,8 +4333,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-the-knative-quickstart-plugin" class="md-nav__link">
-    Install the Knative quickstart plugin
+  <a href="#knative-quickstart" class="md-nav__link">
+    安装Knative quickstart 插件
   </a>
   
 </li>
@@ -4385,7 +4385,7 @@
 <ul>
 <li><a href="https://kind.sigs.k8s.io/docs/user/quick-start" target="_blank">kind</a> (Kubernetes in Docker)
 or <a href="https://minikube.sigs.k8s.io/docs/start/" target="_blank">minikube</a> 以 使用 Docker 容器节点运行本地 Kubernetes 集群</li>
-<li>The <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl" target="_blank">Kubernetes CLI (<code>kubectl</code>)</a> 
+<li><a href="https://kubernetes.io/docs/tasks/tools/install-kubectl" target="_blank">Kubernetes CLI (<code>kubectl</code>)</a> 
 以在Kubernetes集群运行命令。 你可以使用<code>kubectl</code>来部署应用，检查和管理集群资源以及查看日志。</li>
 <li>Knative CLI (<code>kn</code>). 有关说明，请参阅下一节.</li>
 <li>您需要至少 3 个 CPU 和 3 GB 的 RAM 才能创建集群</li>
@@ -4482,20 +4482,19 @@ chmod +x kn
 </div>
 </div>
 </div>
-<h2 id="install-the-knative-quickstart-plugin">Install the Knative quickstart plugin<a class="headerlink" href="#install-the-knative-quickstart-plugin" title="Permanent link">&para;</a></h2>
-<p>To get started, install the Knative <code>quickstart</code> plugin:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Using Homebrew</label><label for="__tabbed_2_2">Using a binary</label><label for="__tabbed_2_3">Using Go</label></div>
+<h2 id="knative-quickstart">安装Knative quickstart 插件<a class="headerlink" href="#knative-quickstart" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">用 Homebrew</label><label for="__tabbed_2_2">Using a binary</label><label for="__tabbed_2_3">Using Go</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>Do one of the following:</p>
+<p>执行以下操作之一：</p>
 <ul>
 <li>
-<p>To install the <code>quickstart</code> plugin by using <a href="https://brew.sh" target="_blank">Homebrew</a>, run the command:</p>
+<p>执行以下命令，用 <a href="https://brew.sh" target="_blank">Homebrew</a> 安装<code>quickstart</code>:</p>
 <div class="highlight"><pre><span></span><code>brew install knative-sandbox/kn-plugins/quickstart
 </code></pre></div>
 </li>
 <li>
-<p>To upgrade an existing <code>quickstart</code> installation to the latest version, run the command:</p>
+<p>执行以下命令，将 <code>quickstart</code> 更新到最新版本:</p>
 <div class="highlight"><pre><span></span><code>brew upgrade knative-sandbox/kn-plugins/quickstart
 </code></pre></div>
 </li>
