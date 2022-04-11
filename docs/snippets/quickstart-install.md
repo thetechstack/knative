@@ -15,7 +15,7 @@
 
 - [kind](https://kind.sigs.k8s.io/docs/user/quick-start){target=_blank} (Kubernetes in Docker)
 or [minikube](https://minikube.sigs.k8s.io/docs/start/){target=_blank} 以 使用 Docker 容器节点运行本地 Kubernetes 集群
-- The [Kubernetes CLI (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl){target=_blank} 
+- [Kubernetes CLI (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl){target=_blank} 
 以在Kubernetes集群运行命令。 你可以使用`kubectl`来部署应用，检查和管理集群资源以及查看日志。
 - Knative CLI (`kn`). 有关说明，请参阅下一节.
 - 您需要至少 3 个 CPU 和 3 GB 的 RAM 才能创建集群
@@ -24,21 +24,19 @@ or [minikube](https://minikube.sigs.k8s.io/docs/start/){target=_blank} 以 使�
 
 --8<-- "install-kn.md"
 
-## Install the Knative quickstart plugin
+## 安装Knative quickstart 插件
 
-To get started, install the Knative `quickstart` plugin:
-
-=== "Using Homebrew"
-
-    Do one of the following:
-
-    - To install the `quickstart` plugin by using [Homebrew](https://brew.sh){target=_blank}, run the command:
+=== "用 Homebrew"
+    
+    执行以下操作之一：
+    
+    - 执行以下命令，用 [Homebrew](https://brew.sh){target=_blank} 安装`quickstart`:
 
         ```bash
         brew install knative-sandbox/kn-plugins/quickstart
         ```
 
-    - To upgrade an existing `quickstart` installation to the latest version, run the command:
+    - 执行以下命令，将 `quickstart` 更新到最新版本:
 
         ```bash
         brew upgrade knative-sandbox/kn-plugins/quickstart
