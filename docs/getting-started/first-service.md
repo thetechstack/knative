@@ -83,25 +83,25 @@
         hello   http://hello.default.${LOADBALANCER_IP}.sslip.io   hello-00001     hello-00001   True
         ```
 
-## Access your Knative Service
+## 访问你的 Knative Service
 
-Access your Knative Service by opening the previous URL in your browser or by running the command:
+通过在浏览器中打开之前的 URL 或运行以下命令来访问您的 Knative Service：
 
 ```bash
 echo "Accessing URL $(kn service describe hello -o url)"
 curl "$(kn service describe hello -o url)"
 ```
 
-!!! Success "Expected output"
+!!! 成功 "预期输出"
     ```{ .bash .no-copy }
     Hello World!
     ```
 
-??? question "Are you seeing `curl: (6) Could not resolve host: hello.default.${LOADBALANCER_IP}.sslip.io`?"
+??? 问题 "你遇到以下错误吗？ `curl: (6) Could not resolve host: hello.default.${LOADBALANCER_IP}.sslip.io`"
 
-    In some cases your DNS server may be set up not to resolve `*.sslip.io` addresses. If you encounter this problem, it can be fixed by using a different nameserver to resolve these addresses.
+    在某些情况下你的DNS服务可能没有配置对`*.sslip.io`域名进行解析。如果您遇到此问题，可以通过使用不同的名字服务器来解析这些地址来解决此问题。
 
-    The exact steps will differ according to your distribution. For example, with Ubuntu derived systems which use `systemd-resolved`, you can add the following entry to the `/etc/systemd/resolved.conf`:
+    确切的步骤将根据您的操作系统版本而有所不同。例如，对于使用`systemd-resolved`的Ubuntu 系统，您可以将以下条目添加到`/etc/systemd/resolved.conf`：
 
     ```ini
     [Resolve]
@@ -113,4 +113,4 @@ curl "$(kn service describe hello -o url)"
 
     For MacOS users, you can add the DNS and domain using the network settings as explained [here](https://support.apple.com/en-gb/guide/mac-help/mh14127/mac).
 
-Congratulations :tada:, you've just created your first Knative Service. Up next, Autoscaling!
+恭喜 :tada:, 您刚刚创建了您的第一个 Knative 服务。接下来，自动伸缩！
