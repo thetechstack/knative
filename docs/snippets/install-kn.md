@@ -30,26 +30,26 @@ Knative CLI (`kn`) 为创建 Knative 资源（例如 Knative 服务和事件源�
 
 === "用二进制文件"
 
-    You can install `kn` by downloading the executable binary for your system and placing it in the system path. Note that you will need `kn` v0.25 or later.
+    您可以通过下载对应你的操作系统的`kn`可执行二进制文件并将其放置在系统路径中来安装`kn`。请注意，您将需要`kn` v0.25 或更高版本。
 
-    1. Download the binary for your system from the [`kn` release page](https://github.com/knative/client/releases){target=_blank}.
+    1. 从 [`kn` 发布页面](https://github.com/knative/client/releases){target=_blank}. 下载对应你的操作系统的二进制文件。
 
-    1. Rename the binary to `kn` and make it executable by running the commands:
+    1. 通过运行以下命令将二进制文件重命名为`kn`并使其可执行：
 
         ```bash
         mv <path-to-binary-file> kn
         chmod +x kn
         ```
 
-        Where `<path-to-binary-file>` is the path to the binary file you downloaded in the previous step, for example, `kn-darwin-amd64` or `kn-linux-amd64`.
+        其中 `<path-to-binary-file>` 是你在上一步下载的二进制文件的存放路径, 比如, `kn-darwin-amd64` 或 `kn-linux-amd64`.
 
-    1. Move the executable binary file to a directory on your PATH by running the command:
+    1. 通过运行以下命令将可执行二进制文件移动到 PATH 上的目录：
 
         ```bash
         mv kn /usr/local/bin
         ```
 
-    1. Verify that the plugin is working by running the command:
+    1. 通过运行以下命令验证插件是否正常工作：
 
         ```bash
         kn version
@@ -57,20 +57,20 @@ Knative CLI (`kn`) 为创建 Knative 资源（例如 Knative 服务和事件源�
 
 === "用 Go"
 
-    1. Check out the `kn` client repository:
+    1. Check out `kn` 客户端仓库:
 
           ```bash
           git clone https://github.com/knative/client.git
           cd client/
           ```
 
-    1. Build an executable binary:
+    1. 构建可执行二进制文件:
 
           ```bash
           hack/build.sh -f
           ```
 
-    1. Move `kn` into your system path, and verify that `kn` commands are working properly. For example:
+    1. 将 `kn` 加入你的系统路径, 并验证`kn`命令是否正常工作。例如：
 
           ```bash
           kn version
@@ -78,15 +78,15 @@ Knative CLI (`kn`) 为创建 Knative 资源（例如 Knative 服务和事件源�
 
 === "用docker镜像"
 
-    Links to images are available here:
+    镜像链接:
 
     - [Latest release](https://gcr.io/knative-releases/knative.dev/client/cmd/kn){target=_blank}
 
-    You can run `kn` from a container image. For example:
+    你可以在容器镜像中运行`kn`命令，例如:
 
     ```bash
     docker run --rm -v "$HOME/.kube/config:/root/.kube/config" gcr.io/knative-releases/knative.dev/client/cmd/kn:latest service list
     ```
 
     !!! note
-        Running `kn` from a container image does not place the binary on a permanent path. This procedure must be repeated each time you want to use `kn`.
+        从容器映像运行`kn`不会将二进制文件放在永久路径上。每次要使用`kn`时都必须重复此过程。
