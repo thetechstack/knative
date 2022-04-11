@@ -1,27 +1,24 @@
-# Install Knative using quickstart
+# 使用quickstart安装 Knative
 
-This topic describes how to install a local deployment of Knative Serving and
-Eventing using the Knative `quickstart` plugin.
+本主题介绍如何使用 Knative `quickstart`插件安装 Knative Serving 和 Eventing 的本地部署（local deployment）。
 
-The plugin installs a preconfigured Knative deployment on a local Kubernetes cluster.
+该插件在本地 Kubernetes 集群上安装预配置的 Knative 部署（deployment）。
 
-!!! warning
-    Knative `quickstart` environments are for experimentation use only.
-    For a production ready installation, see the [YAML-based installation](/docs/install/yaml-install/)
-    or the [Knative Operator installation](/docs/install/operator/knative-with-operators/).
+!!! 警告
+    Knative `quickstart` 环境仅供实验使用。
+    关于生成环境的安装，请参阅 [基于YAML的安装](/knative/install/yaml-install/)
+    或 [Knative Operator安装](/knative/install/operator/knative-with-operators/)
 
-## Before you begin
+## 开始之前
 
-Before you can get started with a Knative `quickstart` deployment you must install:
+在开始使用 Knative `quickstart`部署之前，您必须安装：
 
 - [kind](https://kind.sigs.k8s.io/docs/user/quick-start){target=_blank} (Kubernetes in Docker)
-or [minikube](https://minikube.sigs.k8s.io/docs/start/){target=_blank} to enable
-you to run a local Kubernetes cluster with Docker container nodes.
-- The [Kubernetes CLI (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl){target=_blank}
-to run commands against Kubernetes clusters.
-You can use `kubectl` to deploy applications, inspect and manage cluster resources, and view logs.
-- The Knative CLI (`kn`). For instructions, see the next section.
-- You need minimum of 3&nbsp;CPUs and 3&nbsp;GB of RAM available for the cluster to be created.
+or [minikube](https://minikube.sigs.k8s.io/docs/start/){target=_blank} 以 使用 Docker 容器节点运行本地 Kubernetes 集群
+- The [Kubernetes CLI (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl){target=_blank} 
+以在Kubernetes集群运行命令。 你可以使用`kubectl`来部署应用，检查和管理集群资源以及查看日志。
+- Knative CLI (`kn`). 有关说明，请参阅下一节.
+- 您需要至少 3 个 CPU 和 3 GB 的 RAM 才能创建集群
 
 ### Install the Knative CLI
 
