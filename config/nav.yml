@@ -27,34 +27,34 @@ nav:
 ###############################################################################
     - 安装:
       - 关于安装Knative: install/README.md
-      - Install Knative using quickstart: install/quickstart-install.md
+      - 通过quickstart安装Knative: install/quickstart-install.md
       # YAML Installation
-      - Install Knative with YAML:
-        - About YAML-based installation: install/yaml-install/README.md
-        - Install Knative Serving:
-          - Install Serving with YAML: install/yaml-install/serving/install-serving-with-yaml.md
-          - Knative Serving installation files: install/yaml-install/serving/serving-installation-files.md
-        - Install Knative Eventing:
-          - Install Eventing with YAML: install/yaml-install/eventing/install-eventing-with-yaml.md
-          - Knative Eventing installation files: install/yaml-install/eventing/eventing-installation-files.md
+      - 通过YAML安装Knative:
+        - 关于基于YAML的安装: install/yaml-install/README.md
+        - 安装 Knative Serving:
+          - 通过YAML安装Serving: install/yaml-install/serving/install-serving-with-yaml.md
+          - Knative Serving 安装相关文件: install/yaml-install/serving/serving-installation-files.md
+        - 安装 Knative Eventing:
+          - 通过YAML安装Eventing: install/yaml-install/eventing/install-eventing-with-yaml.md
+          - Knative Eventing 安装相关文件: install/yaml-install/eventing/eventing-installation-files.md
       # Operator Installation
-      - Install with Knative Operator:
-        - Installing using the Operator: install/operator/knative-with-operators.md
-        - Configuring Knative using the Operator: install/operator/configuring-with-operator.md
-        - Configuring Knative Serving CRDs: install/operator/configuring-serving-cr.md
-        - Configuring Knative Eventing CRDs: install/operator/configuring-eventing-cr.md
+      - 通过Knative Operator安装:
+        - 通过Operator安装Knative: install/operator/knative-with-operators.md
+        - 通过Operator配置Knative: install/operator/configuring-with-operator.md
+        - 配置 Knative Serving CRDs: install/operator/configuring-serving-cr.md
+        - 配置 Knative Eventing CRDs: install/operator/configuring-eventing-cr.md
       # kn Installation
-      - Install the Knative CLI:
-        - CLI tools overview: install/client/README.md
-        - Installing kn: install/client/install-kn.md
-        - Customizing kn: install/client/configure-kn.md
-        - kn plugins: install/client/kn-plugins.md
+      - 安装Knative CLI:
+        - CLI 工具概述: install/client/README.md
+        - 安装 kn: install/client/install-kn.md
+        - 自定义 kn: install/client/configure-kn.md
+        - kn 插件: install/client/kn-plugins.md
       # Advanced options for Serving
-      - Install advanced options:
+      - 高级安装选项:
         # Istio Installation
-        - Install Istio for Knative: install/installing-istio.md
+        - 为 Knative 安装Istio: install/installing-istio.md
         # Cert-manager Installation
-        - Install cert-manager: install/installing-cert-manager.md
+        - 安装 cert-manager: install/installing-cert-manager.md
       # Vendor docs
       - Using a Knative-based offering: install/knative-offerings.md
       # Upgrading Knative
@@ -69,21 +69,21 @@ nav:
     # Serving
 ###############################################################################
     - Serving:
-      - Knative Serving overview: serving/README.md
-      - Autoscaling:
-        - About autoscaling: serving/autoscaling/README.md
-        - Supported autoscaler types: serving/autoscaling/autoscaler-types.md
-        - Configuring metrics: serving/autoscaling/autoscaling-metrics.md
-        - Configuring targets: serving/autoscaling/autoscaling-targets.md
-        - Configuring scale to zero: serving/autoscaling/scale-to-zero.md
-        - Configuring concurrency: serving/autoscaling/concurrency.md
-        - Configuring the requests per second (RPS) target: serving/autoscaling/rps-target.md
-        - Configuring scale bounds: serving/autoscaling/scale-bounds.md
-        - Additional autoscaling configuration for Knative Pod Autoscaler: serving/autoscaling/kpa-specific.md
-        - Autoscale Sample App - Go: serving/autoscaling/autoscale-go/README.md
-        - Configuring container-freezer: serving/autoscaling/container-freezer.md
+      - Knative Serving 概述: serving/README.md
+      - 自动伸缩:
+        - 关于自动伸缩: serving/autoscaling/README.md
+        - 支持的自动伸缩类型: serving/autoscaling/autoscaler-types.md
+        - 配置 metrics: serving/autoscaling/autoscaling-metrics.md
+        - 配置 targets: serving/autoscaling/autoscaling-targets.md
+        - 配置缩容到0: serving/autoscaling/scale-to-zero.md
+        - 配置并发: serving/autoscaling/concurrency.md
+        - 配置每秒请求数 (RPS) target: serving/autoscaling/rps-target.md
+        - 配置扩缩容上下界: serving/autoscaling/scale-bounds.md
+        - Knative Pod Autoscaler的额外配置: serving/autoscaling/kpa-specific.md
+        - 自动伸缩示例程序 - Go: serving/autoscaling/autoscale-go/README.md
+        - 配置容器-freezer: serving/autoscaling/container-freezer.md
       # Serving - developer docs
-      - Developer Topics:
+      - 开发者主题:
         - Services:
           - About Knative Services: serving/services/README.md
           - Creating a Service: serving/services/creating-services.md
