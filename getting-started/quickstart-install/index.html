@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#install-knative-using-quickstart" class="md-skip">
+        <a href="#quickstart-knative" class="md-skip">
           跳转至
         </a>
       
@@ -480,11 +480,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#before-you-begin" class="md-nav__link">
-    Before you begin
+  <a href="#_1" class="md-nav__link">
+    开始之前
   </a>
   
-    <nav class="md-nav" aria-label="Before you begin">
+    <nav class="md-nav" aria-label="开始之前">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -4313,11 +4313,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#before-you-begin" class="md-nav__link">
-    Before you begin
+  <a href="#_1" class="md-nav__link">
+    开始之前
   </a>
   
-    <nav class="md-nav" aria-label="Before you begin">
+    <nav class="md-nav" aria-label="开始之前">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -4371,27 +4371,24 @@
 
 
 
-<h1 id="install-knative-using-quickstart">Install Knative using quickstart<a class="headerlink" href="#install-knative-using-quickstart" title="Permanent link">&para;</a></h1>
-<p>This topic describes how to install a local deployment of Knative Serving and
-Eventing using the Knative <code>quickstart</code> plugin.</p>
-<p>The plugin installs a preconfigured Knative deployment on a local Kubernetes cluster.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Knative <code>quickstart</code> environments are for experimentation use only.
-For a production ready installation, see the <a href="/docs/install/yaml-install/">YAML-based installation</a>
-or the <a href="/docs/install/operator/knative-with-operators/">Knative Operator installation</a>.</p>
+<h1 id="quickstart-knative">使用quickstart安装 Knative<a class="headerlink" href="#quickstart-knative" title="Permanent link">&para;</a></h1>
+<p>本主题介绍如何使用 Knative <code>quickstart</code>插件安装 Knative Serving 和 Eventing 的本地部署（local deployment）。</p>
+<p>该插件在本地 Kubernetes 集群上安装预配置的 Knative 部署（deployment）。</p>
+<div class="admonition 警告">
+<p class="admonition-title">警告</p>
+<p>Knative <code>quickstart</code> 环境仅供实验使用。
+关于生成环境的安装，请参阅 <a href="/knative/install/yaml-install/">基于YAML的安装</a>
+或 <a href="/knative/install/operator/knative-with-operators/">Knative Operator安装</a></p>
 </div>
-<h2 id="before-you-begin">Before you begin<a class="headerlink" href="#before-you-begin" title="Permanent link">&para;</a></h2>
-<p>Before you can get started with a Knative <code>quickstart</code> deployment you must install:</p>
+<h2 id="_1">开始之前<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>在开始使用 Knative <code>quickstart</code>部署之前，您必须安装：</p>
 <ul>
 <li><a href="https://kind.sigs.k8s.io/docs/user/quick-start" target="_blank">kind</a> (Kubernetes in Docker)
-or <a href="https://minikube.sigs.k8s.io/docs/start/" target="_blank">minikube</a> to enable
-you to run a local Kubernetes cluster with Docker container nodes.</li>
-<li>The <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl" target="_blank">Kubernetes CLI (<code>kubectl</code>)</a>
-to run commands against Kubernetes clusters.
-You can use <code>kubectl</code> to deploy applications, inspect and manage cluster resources, and view logs.</li>
-<li>The Knative CLI (<code>kn</code>). For instructions, see the next section.</li>
-<li>You need minimum of 3&nbsp;CPUs and 3&nbsp;GB of RAM available for the cluster to be created.</li>
+or <a href="https://minikube.sigs.k8s.io/docs/start/" target="_blank">minikube</a> 以 使用 Docker 容器节点运行本地 Kubernetes 集群</li>
+<li>The <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl" target="_blank">Kubernetes CLI (<code>kubectl</code>)</a> 
+以在Kubernetes集群运行命令。 你可以使用<code>kubectl</code>来部署应用，检查和管理集群资源以及查看日志。</li>
+<li>Knative CLI (<code>kn</code>). 有关说明，请参阅下一节.</li>
+<li>您需要至少 3 个 CPU 和 3 GB 的 RAM 才能创建集群</li>
 </ul>
 <h3 id="install-the-knative-cli">Install the Knative CLI<a class="headerlink" href="#install-the-knative-cli" title="Permanent link">&para;</a></h3>
 <p>The Knative CLI (<code>kn</code>) provides a quick and easy interface for creating Knative resources, such as Knative Services and Event Sources, without the need to create or modify YAML files directly.</p>
