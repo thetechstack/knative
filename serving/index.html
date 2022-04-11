@@ -1314,50 +1314,50 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#serving-resources" class="md-nav__link">
-    Serving resources
+  <a href="#serving" class="md-nav__link">
+    Serving 资源
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    Getting Started
+  <a href="#_2" class="md-nav__link">
+    入门
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#more-samples-and-demos" class="md-nav__link">
-    More samples and demos
+  <a href="#_3" class="md-nav__link">
+    更多示例和演示
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#debugging-knative-serving-issues" class="md-nav__link">
-    Debugging Knative Serving issues
+  <a href="#knative-serving_1" class="md-nav__link">
+    调试 Knative Serving 问题
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration-and-networking" class="md-nav__link">
-    Configuration and Networking
+  <a href="#_4" class="md-nav__link">
+    配置和网络
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#observability" class="md-nav__link">
-    Observability
+  <a href="#_5" class="md-nav__link">
+    可观测性
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#known-issues" class="md-nav__link">
-    Known Issues
+  <a href="#_6" class="md-nav__link">
+    已知问题
   </a>
   
 </li>
@@ -4335,50 +4335,50 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#serving-resources" class="md-nav__link">
-    Serving resources
+  <a href="#serving" class="md-nav__link">
+    Serving 资源
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    Getting Started
+  <a href="#_2" class="md-nav__link">
+    入门
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#more-samples-and-demos" class="md-nav__link">
-    More samples and demos
+  <a href="#_3" class="md-nav__link">
+    更多示例和演示
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#debugging-knative-serving-issues" class="md-nav__link">
-    Debugging Knative Serving issues
+  <a href="#knative-serving_1" class="md-nav__link">
+    调试 Knative Serving 问题
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration-and-networking" class="md-nav__link">
-    Configuration and Networking
+  <a href="#_4" class="md-nav__link">
+    配置和网络
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#observability" class="md-nav__link">
-    Observability
+  <a href="#_5" class="md-nav__link">
+    可观测性
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#known-issues" class="md-nav__link">
-    Known Issues
+  <a href="#_6" class="md-nav__link">
+    已知问题
   </a>
   
 </li>
@@ -4412,7 +4412,7 @@
 <p>Knative Serving 支持 HTTP 和 <a href="using-a-tls-cert/">HTTPS</a> 网络协议。</p>
 <h2 id="_1">安装<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>您可以通过<a href="../install/">安装页面</a>上列出的方法安装 Knative Serving 。</p>
-<h2 id="serving-resources">Serving resources<a class="headerlink" href="#serving-resources" title="Permanent link">&para;</a></h2>
+<h2 id="serving">Serving 资源<a class="headerlink" href="#serving" title="Permanent link">&para;</a></h2>
 <p>Knative Serving 将一组对象定义为 Kubernetes 自定义资源 (Kubernetes Custom Resource
 Definitions，CRD)。这些对象用于定义和控制serverless工作负载在集群上的行为方式：</p>
 <ul>
@@ -4431,35 +4431,30 @@ Definitions，CRD)。这些对象用于定义和控制serverless工作负载在�
   有关详细信息，请参阅<a href="autoscaling/">配置自动伸缩</a>。 </li>
 </ul>
 <p><img alt="显示服务资源如何相互协调的关系图。" src="https://github.com/knative/serving/raw/main/docs/spec/images/object_model.png" /></p>
-<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
-<p>To get started with Serving, check out one of the <a href="../samples/serving/">hello world</a>
-sample projects. These projects use the <code>Service</code> resource, which manages all of
-the details for you.</p>
-<p>With the <code>Service</code> resource, a deployed service will automatically have a
-matching route and configuration created. Each time the <code>Service</code> is updated, a
-new revision is created.</p>
-<p>For more information on the resources and their interactions, see the <a href="https://github.com/knative/specs/blob/main/specs/serving/overview.md">Resource Types Overview</a> in the Knative Serving repository.</p>
-<h2 id="more-samples-and-demos">More samples and demos<a class="headerlink" href="#more-samples-and-demos" title="Permanent link">&para;</a></h2>
+<h2 id="_2">入门<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>要开始使用 Serving，请查看<a href="../samples/serving/">hello world</a>示例项目之一 。这些项目使用Service资源，它为您管理所有细节。</p>
+<p>通过使用<code>Service</code>资源，部署的服务将自动创建匹配的路由和配置。每次<code>Service</code>更新时，都会创建一个新版本</p>
+<p>有关资源及其交互的更多信息，请参阅 Knative Serving 仓库中的<a href="https://github.com/knative/specs/blob/main/specs/serving/overview.md">资源类型概述</a>。</p>
+<h2 id="_3">更多示例和演示<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../samples/serving/">Knative Serving code samples</a></li>
+<li><a href="../samples/serving/">Knative Serving 代码示例</a></li>
 </ul>
-<h2 id="debugging-knative-serving-issues">Debugging Knative Serving issues<a class="headerlink" href="#debugging-knative-serving-issues" title="Permanent link">&para;</a></h2>
+<h2 id="knative-serving_1">调试 Knative Serving 问题<a class="headerlink" href="#knative-serving_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="troubleshooting/debugging-application-issues/">Debugging application issues</a></li>
+<li><a href="troubleshooting/debugging-application-issues/">调试应用程序问题</a></li>
 </ul>
-<h2 id="configuration-and-networking">Configuration and Networking<a class="headerlink" href="#configuration-and-networking" title="Permanent link">&para;</a></h2>
+<h2 id="_4">配置和网络<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="services/private-services/">Configuring cluster local routes</a></li>
-<li><a href="using-a-custom-domain/">Using a custom domain</a></li>
-<li><a href="traffic-management/">Traffic management</a></li>
+<li><a href="services/private-services/">配置集群本地路由</a></li>
+<li><a href="using-a-custom-domain/">使用自定义域名</a></li>
+<li><a href="traffic-management/">流量管理</a></li>
 </ul>
-<h2 id="observability">Observability<a class="headerlink" href="#observability" title="Permanent link">&para;</a></h2>
+<h2 id="_5">可观测性<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="observability/metrics/serving-metrics/">Serving Metrics API</a></li>
+<li><a href="observability/metrics/serving-metrics/">Serving 指标 API</a></li>
 </ul>
-<h2 id="known-issues">Known Issues<a class="headerlink" href="#known-issues" title="Permanent link">&para;</a></h2>
-<p>See the <a href="https://github.com/knative/serving/issues">Knative Serving Issues</a> page
-for a full list of known issues.</p>
+<h2 id="_6">已知问题<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<p>有关已知问题的完整列表，请参阅<a href="https://github.com/knative/serving/issues">Knative Serving 问题页面</a>。</p>
 
               
             </article>
