@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#deploying-your-first-knative-service" class="md-skip">
+        <a href="#knative-service" class="md-skip">
           跳转至
         </a>
       
@@ -529,8 +529,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-your-knative-service" class="md-nav__link">
-    List your Knative Service
+  <a href="#knative-service_1" class="md-nav__link">
+    列出你的Knative Service
   </a>
   
 </li>
@@ -4302,8 +4302,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#list-your-knative-service" class="md-nav__link">
-    List your Knative Service
+  <a href="#knative-service_1" class="md-nav__link">
+    列出你的Knative Service
   </a>
   
 </li>
@@ -4333,34 +4333,34 @@
 
 
 
-<h1 id="deploying-your-first-knative-service">Deploying your first Knative Service<a class="headerlink" href="#deploying-your-first-knative-service" title="Permanent link">&para;</a></h1>
-<p><strong>In this tutorial, you will deploy a "Hello world" service.</strong></p>
-<p>Since our "Hello world" Service is being deployed as a Knative Service, not a Kubernetes Service, it gets some <strong>super powers out of the box</strong> <img alt="🚀" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f680.svg" title=":rocket:" />.</p>
+<h1 id="knative-service">部署你的第一个 Knative Service<a class="headerlink" href="#knative-service" title="Permanent link">&para;</a></h1>
+<p><strong>在本教程中，您将部署一个“Hello world” service</strong>。</p>
+<p>由于我们的“Hello world”服务被部署为 Knative Service，而不是 Kubernetes Service，因此它获得了一些<strong>开箱即用的超能力</strong> <img alt="🚀" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f680.svg" title=":rocket:" />.</p>
 <h2 id="knative-service-hello-world">Knative Service: "Hello world!"<a class="headerlink" href="#knative-service-hello-world" title="Permanent link">&para;</a></h2>
-<p>First, deploy the Knative Service. This service accepts the environment variable,
-<code>TARGET</code>, and prints <code>Hello ${TARGET}!</code>.</p>
+<p>首先, 部署 Knative Service. 这个 service 接受环境变量,
+<code>TARGET</code>, 并打印 <code>Hello ${TARGET}!</code>.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">kn</label><label for="__tabbed_1_2">YAML</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>Deploy the Service by running the command:</p>
+<p>通过运行以下命令部署服务：</p>
 <div class="highlight"><pre><span></span><code>kn service create hello <span class="se">\</span>
 --image gcr.io/knative-samples/helloworld-go <span class="se">\</span>
 --port <span class="m">8080</span> <span class="se">\</span>
 --env <span class="nv">TARGET</span><span class="o">=</span>World
 </code></pre></div>
-<div class="admonition success">
-<p class="admonition-title">Expected output</p>
+<div class="admonition 成功">
+<p class="admonition-title">预期输出</p>
 <p><div class="no-copy highlight"><pre><span></span><code>Service hello created to latest revision <span class="s1">&#39;hello-world&#39;</span> is available at URL:
 http://hello.default.<span class="si">${</span><span class="nv">LOADBALANCER_IP</span><span class="si">}</span>.sslip.io
 </code></pre></div>
-The value of <code>${LOADBALANCER_IP}</code> above depends on your type of cluster,
-for <code>kind</code> it will be <code>127.0.0.1</code> for <code>minikube</code> depends on the local tunnel.</p>
+上面<code>${LOADBALANCER_IP}</code>的值取决于你的集群类型。如果是<code>kind</code>, 值为<code>127.0.0.1</code>;
+如果是<code>minikube</code>，则取决于本地隧道（local tunnel）。</p>
 </div>
 </div>
 <div class="tabbed-block">
 <ol>
 <li>
-<p>Copy the following YAML into a file named <code>hello.yaml</code>:</p>
+<p>将以下内容复制到一个名为 <code>hello.yaml</code> 的文件:</p>
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">serving.knative.dev/v1</span><span class="w"></span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Service</span><span class="w"></span>
 <span class="nt">metadata</span><span class="p">:</span><span class="w"></span>
@@ -4378,11 +4378,11 @@ for <code>kind</code> it will be <code>127.0.0.1</code> for <code>minikube</code
 </code></pre></div>
 </li>
 <li>
-<p>Deploy the Knative Service by running the command:</p>
+<p>通过运行以下命令部署 Knative Service：</p>
 <div class="highlight"><pre><span></span><code>kubectl apply -f hello.yaml
 </code></pre></div>
-<div class="admonition success">
-<p class="admonition-title">Expected output</p>
+<div class="admonition 成功">
+<p class="admonition-title">预期输出</p>
 <div class="no-copy highlight"><pre><span></span><code>service.serving.knative.dev/hello created
 </code></pre></div>
 </div>
@@ -4391,27 +4391,27 @@ for <code>kind</code> it will be <code>127.0.0.1</code> for <code>minikube</code
 </div>
 </div>
 </div>
-<h2 id="list-your-knative-service">List your Knative Service<a class="headerlink" href="#list-your-knative-service" title="Permanent link">&para;</a></h2>
-<p>To see the URL where your Knative Service is hosted, leverage the <code>kn</code> CLI:</p>
+<h2 id="knative-service_1">列出你的Knative Service<a class="headerlink" href="#knative-service_1" title="Permanent link">&para;</a></h2>
+<p>要查看托管 Knative Service的 URL，请利用<code>kn</code> CLI：</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">kn</label><label for="__tabbed_2_2">kubectl</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>View a list of Knative services by running the command:
+<p>通过运行以下命令查看 Knative services列表：</p>
 <div class="highlight"><pre><span></span><code>kn service list
-</code></pre></div></p>
-<div class="admonition success">
-<p class="admonition-title">Expected output</p>
+</code></pre></div>
+<div class="admonition 成功">
+<p class="admonition-title">预期输出</p>
 <div class="highlight"><pre><span></span><code>NAME    URL                                                LATEST        AGE   CONDITIONS   READY
 hello   http://hello.default.<span class="si">${</span><span class="nv">LOADBALANCER_IP</span><span class="si">}</span>.sslip.io   hello-00001   13s   <span class="m">3</span> OK / <span class="m">3</span>     True
 </code></pre></div>
 </div>
 </div>
 <div class="tabbed-block">
-<p>View a list of Knative services by running the command:
+<p>通过运行以下命令查看 Knative 服务列表：</p>
 <div class="highlight"><pre><span></span><code>kubectl get ksvc
-</code></pre></div></p>
-<div class="admonition success">
-<p class="admonition-title">Expected output</p>
+</code></pre></div>
+<div class="admonition 成功">
+<p class="admonition-title">预期输出</p>
 <div class="highlight"><pre><span></span><code>NAME    URL                                                LATESTCREATED   LATESTREADY   READY   REASON
 hello   http://hello.default.<span class="si">${</span><span class="nv">LOADBALANCER_IP</span><span class="si">}</span>.sslip.io   hello-00001     hello-00001   True
 </code></pre></div>
