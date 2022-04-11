@@ -536,8 +536,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#access-your-knative-service" class="md-nav__link">
-    Access your Knative Service
+  <a href="#knative-service_2" class="md-nav__link">
+    访问你的 Knative Service
   </a>
   
 </li>
@@ -4309,8 +4309,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#access-your-knative-service" class="md-nav__link">
-    Access your Knative Service
+  <a href="#knative-service_2" class="md-nav__link">
+    访问你的 Knative Service
   </a>
   
 </li>
@@ -4419,20 +4419,20 @@ hello   http://hello.default.<span class="si">${</span><span class="nv">LOADBALA
 </div>
 </div>
 </div>
-<h2 id="access-your-knative-service">Access your Knative Service<a class="headerlink" href="#access-your-knative-service" title="Permanent link">&para;</a></h2>
-<p>Access your Knative Service by opening the previous URL in your browser or by running the command:</p>
+<h2 id="knative-service_2">访问你的 Knative Service<a class="headerlink" href="#knative-service_2" title="Permanent link">&para;</a></h2>
+<p>通过在浏览器中打开之前的 URL 或运行以下命令来访问您的 Knative Service：</p>
 <div class="highlight"><pre><span></span><code><span class="nb">echo</span> <span class="s2">&quot;Accessing URL </span><span class="k">$(</span>kn service describe hello -o url<span class="k">)</span><span class="s2">&quot;</span>
 curl <span class="s2">&quot;</span><span class="k">$(</span>kn service describe hello -o url<span class="k">)</span><span class="s2">&quot;</span>
 </code></pre></div>
-<div class="admonition success">
-<p class="admonition-title">Expected output</p>
+<div class="admonition 成功">
+<p class="admonition-title">预期输出</p>
 <div class="no-copy highlight"><pre><span></span><code>Hello World!
 </code></pre></div>
 </div>
-<details class="question">
-<summary>Are you seeing <code>curl: (6) Could not resolve host: hello.default.${LOADBALANCER_IP}.sslip.io</code>?</summary>
-<p>In some cases your DNS server may be set up not to resolve <code>*.sslip.io</code> addresses. If you encounter this problem, it can be fixed by using a different nameserver to resolve these addresses.</p>
-<p>The exact steps will differ according to your distribution. For example, with Ubuntu derived systems which use <code>systemd-resolved</code>, you can add the following entry to the <code>/etc/systemd/resolved.conf</code>:</p>
+<details class="问题">
+<summary>你遇到以下错误吗？ <code>curl: (6) Could not resolve host: hello.default.${LOADBALANCER_IP}.sslip.io</code></summary>
+<p>在某些情况下你的DNS服务可能没有配置对<code>*.sslip.io</code>域名进行解析。如果您遇到此问题，可以通过使用不同的名字服务器来解析这些地址来解决此问题。</p>
+<p>确切的步骤将根据您的操作系统版本而有所不同。例如，对于使用<code>systemd-resolved</code>的Ubuntu 系统，您可以将以下条目添加到<code>/etc/systemd/resolved.conf</code>：</p>
 <div class="highlight"><pre><span></span><code><span class="k">[Resolve]</span><span class="w"></span>
 <span class="na">DNS</span><span class="o">=</span><span class="s">8.8.8.8</span><span class="w"></span>
 <span class="na">Domains</span><span class="o">=</span><span class="s">~sslip.io.</span><span class="w"></span>
@@ -4440,7 +4440,7 @@ curl <span class="s2">&quot;</span><span class="k">$(</span>kn service describe 
 <p>Then simply restart the service with <code>sudo service systemd-resolved restart</code>.</p>
 <p>For MacOS users, you can add the DNS and domain using the network settings as explained <a href="https://support.apple.com/en-gb/guide/mac-help/mh14127/mac">here</a>.</p>
 </details>
-<p>Congratulations <img alt="🎉" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f389.svg" title=":tada:" />, you've just created your first Knative Service. Up next, Autoscaling!</p>
+<p>恭喜 <img alt="🎉" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f389.svg" title=":tada:" />, 您刚刚创建了您的第一个 Knative 服务。接下来，自动伸缩！</p>
 
               
             </article>
