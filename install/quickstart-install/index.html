@@ -4391,25 +4391,25 @@ or <a href="https://minikube.sigs.k8s.io/docs/start/" target="_blank">minikube</
 <li>您需要至少 3 个 CPU 和 3 GB 的 RAM 才能创建集群</li>
 </ul>
 <h3 id="install-the-knative-cli">Install the Knative CLI<a class="headerlink" href="#install-the-knative-cli" title="Permanent link">&para;</a></h3>
-<p>The Knative CLI (<code>kn</code>) provides a quick and easy interface for creating Knative resources, such as Knative Services and Event Sources, without the need to create or modify YAML files directly.</p>
-<p>The <code>kn</code> CLI also simplifies completion of otherwise complex procedures such as autoscaling and traffic splitting.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Using Homebrew</label><label for="__tabbed_1_2">Using a binary</label><label for="__tabbed_1_3">Using Go</label><label for="__tabbed_1_4">Using a container image</label></div>
+<p>Knative CLI (<code>kn</code>) 为创建 Knative 资源（例如 Knative 服务和事件源）提供了一个快速简单的工具，而无需直接创建或修改 YAML 文件。</p>
+<p><code>kn</code> CLI 还简化了其他复杂步骤的完成，例如自动伸缩和流量拆分。</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">用 Homebrew</label><label for="__tabbed_1_2">用二进制文件</label><label for="__tabbed_1_3">用 Go</label><label for="__tabbed_1_4">用docker镜像</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>Do one of the following:</p>
+<p>执行以下操作之一：</p>
 <ul>
 <li>
-<p>To install <code>kn</code> by using <a href="https://brew.sh" target="_blank">Homebrew</a>, run the command:</p>
+<p>执行以下命令，用 <a href="https://brew.sh" target="_blank">Homebrew</a> 安装<code>kn</code>:</p>
 <div class="highlight"><pre><span></span><code>brew install kn
 </code></pre></div>
 </li>
 <li>
-<p>To upgrade an existing <code>kn</code> install to the latest version, run the command:</p>
+<p>执行以下命令，将已安装的 <code>kn</code> 更新到最新版本:</p>
 <div class="highlight"><pre><span></span><code>brew upgrade kn
 </code></pre></div>
 <details class="bug">
-<summary>Having issues upgrading <code>kn</code> using Homebrew?</summary>
-<p>If you are having issues upgrading using Homebrew, it might be due to a change to a CLI repository where the <code>master</code> branch was renamed to <code>main</code>. Resolve this issue by running the command:</p>
+<summary>使用Homebrew升级 <code>kn</code> 时遇到问题?</summary>
+<p>如果您在使用 Homebrew 升级<code>kn</code>时遇到问题，可能是由于CLI仓库的master分支被重命名为main了. 可以通过运行以下命令解决此问题：</p>
 <div class="highlight"><pre><span></span><code>brew tap --repair
 brew update
 brew upgrade kn
