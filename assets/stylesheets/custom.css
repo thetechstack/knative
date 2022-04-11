@@ -110,3 +110,11 @@
 code, pre {
     font-family: 'Source Code Pro', monospace, 'Microsoft YaHei' !important;
 }
+
+pre span {
+    font-family: 'Source Code Pro', monospace, 'Microsoft YaHei' !important;
+}
+
+code span {
+    font-family: 'Source Code Pro', monospace, 'Microsoft YaHei' !important;
+}
