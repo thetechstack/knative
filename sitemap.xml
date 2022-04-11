@@ -1,822 +1,822 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/</loc>
+         <loc>https://heapoverflow.cn/knative/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/about-analytics-cookies/</loc>
+         <loc>https://heapoverflow.cn/knative/about-analytics-cookies/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/about/testimonials/</loc>
+         <loc>https://heapoverflow.cn/knative/about/testimonials/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/about/case-studies/deepc/</loc>
+         <loc>https://heapoverflow.cn/knative/about/case-studies/deepc/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/about/case-studies/outfit7/</loc>
+         <loc>https://heapoverflow.cn/knative/about/case-studies/outfit7/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/about/case-studies/puppet/</loc>
+         <loc>https://heapoverflow.cn/knative/about/case-studies/puppet/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/community/</loc>
+         <loc>https://heapoverflow.cn/knative/community/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/community/about/</loc>
+         <loc>https://heapoverflow.cn/knative/community/about/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/community/contributing/</loc>
+         <loc>https://heapoverflow.cn/knative/community/contributing/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/accessing-traces/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/accessing-traces/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/event-delivery/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/event-delivery/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/event-registry/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/event-registry/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/getting-started/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/getting-started/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/broker/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/broker/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/broker/create-mtbroker/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/broker/create-mtbroker/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/broker/example-mtbroker/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/broker/example-mtbroker/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/broker/kafka-broker/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/broker/kafka-broker/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/broker/rabbitmq-broker/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/broker/rabbitmq-broker/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/broker/triggers/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/broker/triggers/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/channels/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/channels/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/channels/channel-types-defaults/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/channels/channel-types-defaults/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/channels/channels-crds/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/channels/channels-crds/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/channels/create-default-channel/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/channels/create-default-channel/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/channels/subscriptions/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/channels/subscriptions/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/configuration/broker-configuration/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/configuration/broker-configuration/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/configuration/channel-configuration/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/configuration/channel-configuration/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/configuration/kafka-channel-configuration/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/configuration/kafka-channel-configuration/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/configuration/sources-configuration/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/configuration/sources-configuration/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/containersource/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/containersource/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/containersource/reference/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/containersource/reference/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/custom-event-source/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/custom-event-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/custom-event-source/controller/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/custom-event-source/controller/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/custom-event-source/publish-event-source/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/custom-event-source/publish-event-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/custom-event-source/receive-adapter/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/custom-event-source/receive-adapter/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/custom-event-source/sample-repo/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/custom-event-source/sample-repo/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/sinkbinding/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/sinkbinding/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/sinkbinding/create-a-sinkbinding/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/sinkbinding/create-a-sinkbinding/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/custom-event-source/sinkbinding/reference/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/custom-event-source/sinkbinding/reference/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/delivery-retryafter/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/delivery-retryafter/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/delivery-timeout/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/delivery-timeout/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/kreference-group/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/kreference-group/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/kreference-mapping/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/kreference-mapping/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/new-trigger-filters/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/new-trigger-filters/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/experimental-features/strict-subscriber/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/experimental-features/strict-subscriber/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/parallel/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/parallel/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/sequence/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/sequence/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/sequence/sequence-reply-to-event-display/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/sequence/sequence-reply-to-event-display/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/sequence/sequence-reply-to-sequence/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/sequence/sequence-reply-to-sequence/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/sequence/sequence-terminal/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/sequence/sequence-terminal/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/flows/sequence/sequence-with-broker-trigger/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/flows/sequence/sequence-with-broker-trigger/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/observability/logging/collecting-logs/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/observability/logging/collecting-logs/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/observability/logging/config-logging/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/observability/logging/config-logging/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/observability/metrics/collecting-metrics/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/observability/metrics/collecting-metrics/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/observability/metrics/eventing-metrics/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/observability/metrics/eventing-metrics/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sinks/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sinks/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sinks/kafka-sink/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sinks/kafka-sink/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/apache-camel-source/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/apache-camel-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/apiserversource/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/apiserversource/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/apiserversource/getting-started/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/apiserversource/getting-started/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/apiserversource/reference/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/apiserversource/reference/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/kafka-source/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/kafka-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/ping-source/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/ping-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sources/ping-source/reference/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sources/ping-source/reference/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/sugar/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/sugar/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/eventing/troubleshooting/</loc>
+         <loc>https://heapoverflow.cn/knative/eventing/troubleshooting/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/clean-up/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/clean-up/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/first-autoscale/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/first-autoscale/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/first-broker/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/first-broker/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/first-service/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/first-service/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/first-source/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/first-source/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/first-traffic-split/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/first-traffic-split/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/first-trigger/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/first-trigger/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/getting-started-eventing/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/getting-started-eventing/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/next-steps/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/next-steps/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/getting-started/quickstart-install/</loc>
+         <loc>https://heapoverflow.cn/knative/getting-started/quickstart-install/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/</loc>
+         <loc>https://heapoverflow.cn/knative/install/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/installing-cert-manager/</loc>
+         <loc>https://heapoverflow.cn/knative/install/installing-cert-manager/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/installing-istio/</loc>
+         <loc>https://heapoverflow.cn/knative/install/installing-istio/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/knative-offerings/</loc>
+         <loc>https://heapoverflow.cn/knative/install/knative-offerings/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/quickstart-install/</loc>
+         <loc>https://heapoverflow.cn/knative/install/quickstart-install/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/uninstall/</loc>
+         <loc>https://heapoverflow.cn/knative/install/uninstall/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/client/</loc>
+         <loc>https://heapoverflow.cn/knative/install/client/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/client/configure-kn/</loc>
+         <loc>https://heapoverflow.cn/knative/install/client/configure-kn/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/client/install-kn/</loc>
+         <loc>https://heapoverflow.cn/knative/install/client/install-kn/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/client/kn-plugins/</loc>
+         <loc>https://heapoverflow.cn/knative/install/client/kn-plugins/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/operator/configuring-eventing-cr/</loc>
+         <loc>https://heapoverflow.cn/knative/install/operator/configuring-eventing-cr/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/operator/configuring-serving-cr/</loc>
+         <loc>https://heapoverflow.cn/knative/install/operator/configuring-serving-cr/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/operator/configuring-with-operator/</loc>
+         <loc>https://heapoverflow.cn/knative/install/operator/configuring-with-operator/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/operator/knative-with-operators/</loc>
+         <loc>https://heapoverflow.cn/knative/install/operator/knative-with-operators/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/upgrade/</loc>
+         <loc>https://heapoverflow.cn/knative/install/upgrade/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/upgrade/check-install-version/</loc>
+         <loc>https://heapoverflow.cn/knative/install/upgrade/check-install-version/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/upgrade/upgrade-installation-with-operator/</loc>
+         <loc>https://heapoverflow.cn/knative/install/upgrade/upgrade-installation-with-operator/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/upgrade/upgrade-installation/</loc>
+         <loc>https://heapoverflow.cn/knative/install/upgrade/upgrade-installation/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/yaml-install/</loc>
+         <loc>https://heapoverflow.cn/knative/install/yaml-install/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/yaml-install/eventing/eventing-installation-files/</loc>
+         <loc>https://heapoverflow.cn/knative/install/yaml-install/eventing/eventing-installation-files/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/yaml-install/eventing/install-eventing-with-yaml/</loc>
+         <loc>https://heapoverflow.cn/knative/install/yaml-install/eventing/install-eventing-with-yaml/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/yaml-install/serving/install-serving-with-yaml/</loc>
+         <loc>https://heapoverflow.cn/knative/install/yaml-install/serving/install-serving-with-yaml/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/install/yaml-install/serving/serving-installation-files/</loc>
+         <loc>https://heapoverflow.cn/knative/install/yaml-install/serving/serving-installation-files/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/api/eventing-api/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/api/eventing-api/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/api/serving-api/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/api/serving-api/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/client/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/client/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/concepts/duck-typing/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/concepts/duck-typing/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/relnotes/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/relnotes/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/reference/security/</loc>
+         <loc>https://heapoverflow.cn/knative/reference/security/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/samples/</loc>
+         <loc>https://heapoverflow.cn/knative/samples/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/samples/eventing/</loc>
+         <loc>https://heapoverflow.cn/knative/samples/eventing/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/samples/serving/</loc>
+         <loc>https://heapoverflow.cn/knative/samples/serving/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/accessing-traces/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/accessing-traces/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/config-ha/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/config-ha/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/convert-deployment-to-knative-service/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/convert-deployment-to-knative-service/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/deploying-from-private-registry/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/deploying-from-private-registry/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/istio-authorization/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/istio-authorization/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/knative-kubernetes-services/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/knative-kubernetes-services/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/revision-gc/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/revision-gc/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/rolling-out-latest-revision/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/rolling-out-latest-revision/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/setting-up-custom-ingress-gateway/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/setting-up-custom-ingress-gateway/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/tag-resolution/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/tag-resolution/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/traffic-management/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/traffic-management/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/using-a-custom-domain/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/using-a-custom-domain/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/using-a-tls-cert/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/using-a-tls-cert/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/using-auto-tls/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/using-auto-tls/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/webhook-customizations/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/webhook-customizations/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/autoscaler-types/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/autoscaler-types/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/autoscaling-metrics/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/autoscaling-metrics/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/autoscaling-targets/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/autoscaling-targets/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/concurrency/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/concurrency/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/container-freezer/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/container-freezer/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/kpa-specific/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/kpa-specific/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/rps-target/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/rps-target/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/scale-bounds/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/scale-bounds/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/scale-to-zero/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/scale-to-zero/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/autoscaling/autoscale-go/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/autoscaling/autoscale-go/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/configuration/config-defaults/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/configuration/config-defaults/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/configuration/deployment/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/configuration/deployment/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/configuration/feature-flags/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/configuration/feature-flags/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/configuration/revision-gc/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/configuration/revision-gc/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/configuration/rolling-out-latest-revision-configmap/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/configuration/rolling-out-latest-revision-configmap/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/load-balancing/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/load-balancing/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/load-balancing/activator-capacity/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/load-balancing/activator-capacity/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/load-balancing/target-burst-capacity/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/load-balancing/target-burst-capacity/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/observability/logging/collecting-logs/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/observability/logging/collecting-logs/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/observability/logging/config-logging/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/observability/logging/config-logging/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/observability/metrics/collecting-metrics/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/observability/metrics/collecting-metrics/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/observability/metrics/serving-metrics/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/observability/metrics/serving-metrics/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/byo-certificate/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/byo-certificate/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/certificate-class/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/certificate-class/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/configure-requests-limits-services/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/configure-requests-limits-services/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/creating-services/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/creating-services/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/custom-domains/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/custom-domains/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/http-protocol/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/http-protocol/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/ingress-class/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/ingress-class/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/private-services/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/private-services/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/services/service-metrics/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/services/service-metrics/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://heapoverflow.cn/knative/docs/serving/troubleshooting/debugging-application-issues/</loc>
+         <loc>https://heapoverflow.cn/knative/serving/troubleshooting/debugging-application-issues/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
