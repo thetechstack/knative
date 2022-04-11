@@ -13,7 +13,7 @@ Knative Serving 支持 HTTP 和 [HTTPS](using-a-tls-cert.md) 网络协议。
 
 您可以通过[安装页面](../install/README.md)上列出的方法安装 Knative Serving 。
 
-## Serving resources
+## Serving 资源
 
 
 Knative Serving 将一组对象定义为 Kubernetes 自定义资源 (Kubernetes Custom Resource
@@ -35,37 +35,32 @@ Definitions，CRD)。这些对象用于定义和控制serverless工作负载在�
 
 ![显示服务资源如何相互协调的关系图。](https://github.com/knative/serving/raw/main/docs/spec/images/object_model.png)
 
-## Getting Started
+## 入门
 
-To get started with Serving, check out one of the [hello world](../samples/serving.md)
-sample projects. These projects use the `Service` resource, which manages all of
-the details for you.
+要开始使用 Serving，请查看[hello world](../samples/serving.md)示例项目之一 。这些项目使用Service资源，它为您管理所有细节。
 
-With the `Service` resource, a deployed service will automatically have a
-matching route and configuration created. Each time the `Service` is updated, a
-new revision is created.
+通过使用`Service`资源，部署的服务将自动创建匹配的路由和配置。每次`Service`更新时，都会创建一个新版本
 
-For more information on the resources and their interactions, see the [Resource Types Overview](https://github.com/knative/specs/blob/main/specs/serving/overview.md) in the Knative Serving repository.
+有关资源及其交互的更多信息，请参阅 Knative Serving 仓库中的[资源类型概述](https://github.com/knative/specs/blob/main/specs/serving/overview.md)。
 
-## More samples and demos
+## 更多示例和演示
 
-- [Knative Serving code samples](../samples/serving.md)
+- [Knative Serving 代码示例](../samples/serving.md)
 
-## Debugging Knative Serving issues
+## 调试 Knative Serving 问题
 
-- [Debugging application issues](troubleshooting/debugging-application-issues.md)
+- [调试应用程序问题](troubleshooting/debugging-application-issues.md)
 
-## Configuration and Networking
+## 配置和网络
 
-- [Configuring cluster local routes](services/private-services.md)
-- [Using a custom domain](using-a-custom-domain.md)
-- [Traffic management](traffic-management.md)
+- [配置集群本地路由](services/private-services.md)
+- [使用自定义域名](using-a-custom-domain.md)
+- [流量管理](traffic-management.md)
 
-## Observability
+## 可观测性
 
-- [Serving Metrics API](observability/metrics/serving-metrics.md)
+- [Serving 指标 API](observability/metrics/serving-metrics.md)
 
-## Known Issues
+## 已知问题
 
-See the [Knative Serving Issues](https://github.com/knative/serving/issues) page
-for a full list of known issues.
+有关已知问题的完整列表，请参阅[Knative Serving 问题页面](https://github.com/knative/serving/issues)。
