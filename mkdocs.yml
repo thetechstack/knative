@@ -14,7 +14,7 @@ theme:
   logo: images/logo/rgb/knative-logo-rgb.png
   favicon: images/favicon.ico
   custom_dir: overrides
-  locale: zh
+  language: zh
   features:
     - navigation.tabs
     - navigation.tracking
