@@ -1,17 +1,17 @@
-# Deploying your first Knative Service
+# 部署你的第一个 Knative Service
 
-**In this tutorial, you will deploy a "Hello world" service.**
+**在本教程中，您将部署一个“Hello world” service**。
 
-Since our "Hello world" Service is being deployed as a Knative Service, not a Kubernetes Service, it gets some **super powers out of the box** :rocket:.
+由于我们的“Hello world”服务被部署为 Knative Service，而不是 Kubernetes Service，因此它获得了一些**开箱即用的超能力** :rocket:.
 
 ## Knative Service: "Hello world!"
 
-First, deploy the Knative Service. This service accepts the environment variable,
-`TARGET`, and prints `Hello ${TARGET}!`.
+首先, 部署 Knative Service. 这个 service 接受环境变量,
+`TARGET`, 并打印 `Hello ${TARGET}!`.
 
 === "kn"
 
-    Deploy the Service by running the command:
+    通过运行以下命令部署服务：
 
     ```bash
     kn service create hello \
@@ -19,16 +19,16 @@ First, deploy the Knative Service. This service accepts the environment variable
     --port 8080 \
     --env TARGET=World
     ```
-    !!! Success "Expected output"
+    !!! 成功 "预期输出"
         ```{ .bash .no-copy }
         Service hello created to latest revision 'hello-world' is available at URL:
         http://hello.default.${LOADBALANCER_IP}.sslip.io
         ```
-        The value of `${LOADBALANCER_IP}` above depends on your type of cluster,
-        for `kind` it will be `127.0.0.1` for `minikube` depends on the local tunnel.
+        上面`${LOADBALANCER_IP}`的值取决于你的集群类型。如果是`kind`, 值为`127.0.0.1`;
+        如果是`minikube`，则取决于本地隧道（local tunnel）。
 
 === "YAML"
-    1. Copy the following YAML into a file named `hello.yaml`:
+    1. 将以下内容复制到一个名为 `hello.yaml` 的文件:
 
         ```yaml
         apiVersion: serving.knative.dev/v1
@@ -46,36 +46,38 @@ First, deploy the Knative Service. This service accepts the environment variable
                     - name: TARGET
                       value: "World"
         ```
-    1. Deploy the Knative Service by running the command:
+    1. 通过运行以下命令部署 Knative Service：
 
         ```bash
         kubectl apply -f hello.yaml
         ```
-        !!! Success "Expected output"
+        !!! 成功 "预期输出"
             ```{ .bash .no-copy }
             service.serving.knative.dev/hello created
             ```
 
-## List your Knative Service
+## 列出你的Knative Service
 
-To see the URL where your Knative Service is hosted, leverage the `kn` CLI:
+要查看托管 Knative Service的 URL，请利用`kn` CLI：
 
 === "kn"
-    View a list of Knative services by running the command:
+    通过运行以下命令查看 Knative services列表：
+
     ```bash
     kn service list
     ```
-    !!! Success "Expected output"
+    !!! 成功 "预期输出"
         ```bash
         NAME    URL                                                LATEST        AGE   CONDITIONS   READY
         hello   http://hello.default.${LOADBALANCER_IP}.sslip.io   hello-00001   13s   3 OK / 3     True
         ```
 === "kubectl"
-    View a list of Knative services by running the command:
+    通过运行以下命令查看 Knative 服务列表：
+
     ```bash
     kubectl get ksvc
     ```
-    !!! Success "Expected output"
+    !!! 成功 "预期输出"
         ```bash
         NAME    URL                                                LATESTCREATED   LATESTREADY   READY   REASON
         hello   http://hello.default.${LOADBALANCER_IP}.sslip.io   hello-00001     hello-00001   True
