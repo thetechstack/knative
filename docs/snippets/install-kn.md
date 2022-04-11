@@ -3,6 +3,9 @@ Knative CLI (`kn`) 为创建 Knative 资源（例如 Knative 服务和事件源�
 `kn` CLI 还简化了其他复杂步骤的完成，例如自动伸缩和流量拆分。
 
 === "用 Homebrew"
+    
+    !!! 提示   
+        国内安装Homebrew的方法，可参考知乎[这篇文章](https://zhuanlan.zhihu.com/p/111014448)
 
     执行以下操作之一：
 
@@ -12,7 +15,7 @@ Knative CLI (`kn`) 为创建 Knative 资源（例如 Knative 服务和事件源�
         brew install kn
         ```
 
-    - 执行以下命令，将已安装的 `kn` 更新到最新版本:
+    - 执行以下命令，将 `kn` 更新到最新版本:
 
         ```bash
         brew upgrade kn
