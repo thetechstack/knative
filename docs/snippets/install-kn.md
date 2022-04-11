@@ -1,26 +1,26 @@
-The Knative CLI (`kn`) provides a quick and easy interface for creating Knative resources, such as Knative Services and Event Sources, without the need to create or modify YAML files directly.
+Knative CLI (`kn`) 为创建 Knative 资源（例如 Knative 服务和事件源）提供了一个快速简单的工具，而无需直接创建或修改 YAML 文件。
 
-The `kn` CLI also simplifies completion of otherwise complex procedures such as autoscaling and traffic splitting.
+`kn` CLI 还简化了其他复杂步骤的完成，例如自动伸缩和流量拆分。
 
-=== "Using Homebrew"
+=== "用 Homebrew"
 
-    Do one of the following:
+    执行以下操作之一：
 
-    - To install `kn` by using [Homebrew](https://brew.sh){target=_blank}, run the command:
+    - 执行以下命令，用 [Homebrew](https://brew.sh){target=_blank} 安装`kn`:
 
         ```bash
         brew install kn
         ```
 
-    - To upgrade an existing `kn` install to the latest version, run the command:
+    - 执行以下命令，将已安装的 `kn` 更新到最新版本:
 
         ```bash
         brew upgrade kn
         ```
 
-        ??? bug "Having issues upgrading `kn` using Homebrew?"
-
-            If you are having issues upgrading using Homebrew, it might be due to a change to a CLI repository where the `master` branch was renamed to `main`. Resolve this issue by running the command:
+        ??? bug "使用Homebrew升级 `kn` 时遇到问题?"
+            
+            如果您在使用 Homebrew 升级`kn`时遇到问题，可能是由于CLI仓库的master分支被重命名为main了. 可以通过运行以下命令解决此问题：
 
             ```bash
             brew tap --repair
@@ -28,7 +28,7 @@ The `kn` CLI also simplifies completion of otherwise complex procedures such as 
             brew upgrade kn
             ```
 
-=== "Using a binary"
+=== "用二进制文件"
 
     You can install `kn` by downloading the executable binary for your system and placing it in the system path. Note that you will need `kn` v0.25 or later.
 
@@ -55,7 +55,7 @@ The `kn` CLI also simplifies completion of otherwise complex procedures such as 
         kn version
         ```
 
-=== "Using Go"
+=== "用 Go"
 
     1. Check out the `kn` client repository:
 
@@ -76,7 +76,7 @@ The `kn` CLI also simplifies completion of otherwise complex procedures such as 
           kn version
           ```
 
-=== "Using a container image"
+=== "用docker镜像"
 
     Links to images are available here:
 
