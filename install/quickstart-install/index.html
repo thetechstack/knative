@@ -4419,25 +4419,25 @@ brew upgrade kn
 </ul>
 </div>
 <div class="tabbed-block">
-<p>You can install <code>kn</code> by downloading the executable binary for your system and placing it in the system path. Note that you will need <code>kn</code> v0.25 or later.</p>
+<p>您可以通过下载对应你的操作系统的<code>kn</code>可执行二进制文件并将其放置在系统路径中来安装<code>kn</code>。请注意，您将需要<code>kn</code> v0.25 或更高版本。</p>
 <ol>
 <li>
-<p>Download the binary for your system from the <a href="https://github.com/knative/client/releases" target="_blank"><code>kn</code> release page</a>.</p>
+<p>从 <a href="https://github.com/knative/client/releases" target="_blank"><code>kn</code> 发布页面</a>. 下载对应你的操作系统的二进制文件。</p>
 </li>
 <li>
-<p>Rename the binary to <code>kn</code> and make it executable by running the commands:</p>
+<p>通过运行以下命令将二进制文件重命名为<code>kn</code>并使其可执行：</p>
 <div class="highlight"><pre><span></span><code>mv &lt;path-to-binary-file&gt; kn
 chmod +x kn
 </code></pre></div>
-<p>Where <code>&lt;path-to-binary-file&gt;</code> is the path to the binary file you downloaded in the previous step, for example, <code>kn-darwin-amd64</code> or <code>kn-linux-amd64</code>.</p>
+<p>其中 <code>&lt;path-to-binary-file&gt;</code> 是你在上一步下载的二进制文件的存放路径, 比如, <code>kn-darwin-amd64</code> 或 <code>kn-linux-amd64</code>.</p>
 </li>
 <li>
-<p>Move the executable binary file to a directory on your PATH by running the command:</p>
+<p>通过运行以下命令将可执行二进制文件移动到 PATH 上的目录：</p>
 <div class="highlight"><pre><span></span><code>mv kn /usr/local/bin
 </code></pre></div>
 </li>
 <li>
-<p>Verify that the plugin is working by running the command:</p>
+<p>通过运行以下命令验证插件是否正常工作：</p>
 <div class="highlight"><pre><span></span><code>kn version
 </code></pre></div>
 </li>
@@ -4446,34 +4446,34 @@ chmod +x kn
 <div class="tabbed-block">
 <ol>
 <li>
-<p>Check out the <code>kn</code> client repository:</p>
+<p>Check out <code>kn</code> 客户端仓库:</p>
 <div class="highlight"><pre><span></span><code>git clone https://github.com/knative/client.git
 <span class="nb">cd</span> client/
 </code></pre></div>
 </li>
 <li>
-<p>Build an executable binary:</p>
+<p>构建可执行二进制文件:</p>
 <div class="highlight"><pre><span></span><code>hack/build.sh -f
 </code></pre></div>
 </li>
 <li>
-<p>Move <code>kn</code> into your system path, and verify that <code>kn</code> commands are working properly. For example:</p>
+<p>将 <code>kn</code> 加入你的系统路径, 并验证<code>kn</code>命令是否正常工作。例如：</p>
 <div class="highlight"><pre><span></span><code>kn version
 </code></pre></div>
 </li>
 </ol>
 </div>
 <div class="tabbed-block">
-<p>Links to images are available here:</p>
+<p>镜像链接:</p>
 <ul>
 <li><a href="https://gcr.io/knative-releases/knative.dev/client/cmd/kn" target="_blank">Latest release</a></li>
 </ul>
-<p>You can run <code>kn</code> from a container image. For example:</p>
+<p>你可以在容器镜像中运行<code>kn</code>命令，例如:</p>
 <div class="highlight"><pre><span></span><code>docker run --rm -v <span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.kube/config:/root/.kube/config&quot;</span> gcr.io/knative-releases/knative.dev/client/cmd/kn:latest service list
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Running <code>kn</code> from a container image does not place the binary on a permanent path. This procedure must be repeated each time you want to use <code>kn</code>.</p>
+<p>从容器映像运行<code>kn</code>不会将二进制文件放在永久路径上。每次要使用<code>kn</code>时都必须重复此过程。</p>
 </div>
 </div>
 </div>
