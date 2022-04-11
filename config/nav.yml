@@ -12,14 +12,14 @@ nav:
         - 教程介绍: getting-started/README.md
         - 通过quickstart安装Knative: getting-started/quickstart-install.md
         - 使用Knative Serving:
-          - First Knative Service: getting-started/first-service.md
-          - Scaling to Zero: getting-started/first-autoscale.md
-          - Traffic Splitting: getting-started/first-traffic-split.md
+          - 第一个Knative Service: getting-started/first-service.md
+          - 缩容到零: getting-started/first-autoscale.md
+          - 流量拆分: getting-started/first-traffic-split.md
         - 使用Knative Eventing:
-          - Introducing Knative Eventing: getting-started/getting-started-eventing.md
-          - Sources, Brokers, Triggers, Sinks: getting-started/first-broker.md
-          - Using a Knative Service as a source: getting-started/first-source.md
-          - Using Triggers and sinks: getting-started/first-trigger.md
+          - Knative Eventing介绍: getting-started/getting-started-eventing.md
+          - 事件源, 代理, 触发器, Sinks: getting-started/first-broker.md
+          - 将 Knative Service 作为事件源: getting-started/first-source.md
+          - 使用 触发器 and sinks: getting-started/first-trigger.md
         - 接下来?: getting-started/next-steps.md
         - Clean Up: getting-started/clean-up.md
 ###############################################################################
