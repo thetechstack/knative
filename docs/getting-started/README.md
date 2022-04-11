@@ -1,15 +1,13 @@
-# Welcome to the Knative Quickstart tutorial
+# 欢迎来到 Knative 快速入门教程
 
-This tutorial lets you try out some of the commonly used features in Knative.
+本教程让您试用 Knative 中的一些常用功能。
 
-In the first lesson you will install Knative locally using the Knative `quickstart` plugin.
-To follow the tutorial you must use the `quickstart` plugin to install Knative.
-The plugin provides a Knative deployment for development use, which has
-been configured with the components you need for this tutorial.
+首先，你需要通过`quickstart`插件在本地安装Knative。这是你学习后面教程的前提。
+该插件提供了一个用于开发的 Knative 部署，它已经配置了本教程所需的组件。
 
-Then, on your new cluster, you will carry out common tasks for **Knative Serving** and **Knative Eventing**.
+然后，在您的新集群上，您将执行**Knative Serving**和**Knative Eventing**的常见任务。
 
-We recommend that you complete the topics in this tutorial in order.
+我们建议您按顺序完成本教程中的主题。
 
-!!! tip
-    Hit ++"."++ (period) on your keyboard to move forward in the tutorial. Use ++","++ (comma) to go back at any time.
+!!! 提示
+    点击键盘上的 ++"."++ (句点) 以在教程中继续前进. 使用 ++","++ (逗号) 随时返回。
