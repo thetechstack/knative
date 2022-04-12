@@ -70,9 +70,9 @@ nav:
 ###############################################################################
     - Serving:
       - Knative Serving 概述: serving/README.md
-      - 自动伸缩:
-        - 关于自动伸缩: serving/autoscaling/README.md
-        - 支持的自动伸缩类型: serving/autoscaling/autoscaler-types.md
+      - 自动扩缩:
+        - 关于自动扩缩: serving/autoscaling/README.md
+        - 支持的自动扩缩类型: serving/autoscaling/autoscaler-types.md
         - 配置 metrics: serving/autoscaling/autoscaling-metrics.md
         - 配置 targets: serving/autoscaling/autoscaling-targets.md
         - 配置缩容到0: serving/autoscaling/scale-to-zero.md
@@ -80,7 +80,7 @@ nav:
         - 配置每秒请求数 (RPS) target: serving/autoscaling/rps-target.md
         - 配置扩缩容上下界: serving/autoscaling/scale-bounds.md
         - Knative Pod Autoscaler的额外配置: serving/autoscaling/kpa-specific.md
-        - 自动伸缩示例程序 - Go: serving/autoscaling/autoscale-go/README.md
+        - 自动扩缩示例程序 - Go: serving/autoscaling/autoscale-go/README.md
         - 配置容器-freezer: serving/autoscaling/container-freezer.md
       # Serving - developer docs
       - 开发者主题:
