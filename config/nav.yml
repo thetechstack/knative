@@ -58,13 +58,13 @@ nav:
       # Vendor docs
       - Using a Knative-based offering: install/knative-offerings.md
       # Upgrading Knative
-      - Upgrading your installation:
-        - About upgrading Knative: install/upgrade/README.md
-        - Checking your Knative version: install/upgrade/check-install-version.md
-        - Upgrading with kubectl: install/upgrade/upgrade-installation.md
-        - Upgrading with the Knative Operator: install/upgrade/upgrade-installation-with-operator.md
+      - 更新Knative:
+        - 关于更新Knative: install/upgrade/README.md
+        - 检查Knative版本: install/upgrade/check-install-version.md
+        - 通过kubectl更新: install/upgrade/upgrade-installation.md
+        - 通过Knative Operator更新: install/upgrade/upgrade-installation-with-operator.md
       # Uninstall
-      - Uninstalling Knative: install/uninstall.md
+      - 卸载Knative: install/uninstall.md
 ###############################################################################
     # Serving
 ###############################################################################
@@ -85,10 +85,10 @@ nav:
       # Serving - developer docs
       - 开发者主题:
         - Services:
-          - About Knative Services: serving/services/README.md
-          - Creating a Service: serving/services/creating-services.md
-          - Service metrics: serving/services/service-metrics.md
-          - Configuring private Services: serving/services/private-services.md
+          - 关于Knative Services: serving/services/README.md
+          - 创建一个Service: serving/services/creating-services.md
+          - Service指标: serving/services/service-metrics.md
+          - 配置私有Services: serving/services/private-services.md
           - Configuring ingress class: serving/services/ingress-class.md
           - Configuring certificate class: serving/services/certificate-class.md
           - Configuring custom domains: serving/services/custom-domains.md
@@ -106,7 +106,7 @@ nav:
           - Configuring Activator capacity: serving/load-balancing/activator-capacity.md
         - Revision garbage collection: serving/revision-gc.md
       # Serving - admin docs
-      - Administrator Topics:
+      - 集群管理员主题:
         - Kubernetes services: serving/knative-kubernetes-services.md
         - Accessing request traces: serving/accessing-traces.md
         - Enabling requests to Knative services when additional authorization policies are enabled: serving/istio-authorization.md
@@ -125,22 +125,22 @@ nav:
           - Feature and extension flags: serving/configuration/feature-flags.md
           - Configure the Defaults ConfigMap: serving/configuration/config-defaults.md
       # Serving - observability
-      - Observability:
+      - 可观测性:
         - Collecting logs: serving/observability/logging/collecting-logs.md
         - Configuring logging: serving/observability/logging/config-logging.md
         - Collecting metrics: serving/observability/metrics/collecting-metrics.md
         - Knative Serving metrics: serving/observability/metrics/serving-metrics.md
       # Serving - troubleshooting
-      - Troubleshooting:
+      - 问题排查:
         - Debugging application issues: serving/troubleshooting/debugging-application-issues.md
 ###############################################################################
     # Eventing
 ###############################################################################
     - Eventing:
-      - Knative Eventing overview: eventing/README.md
-      - Eventing getting started: eventing/getting-started.md # do we need this as well as the getting started guide?
+      - Knative Eventing概述: eventing/README.md
+      - Eventing入门: eventing/getting-started.md # do we need this as well as the getting started guide?
       # Eventing - developer docs
-      - Developer topics:
+      - 开发者主题:
         - Event sources:
           - About event sources: eventing/sources/README.md
           - ApiServerSource:
@@ -199,7 +199,7 @@ nav:
           - RabbitMQ Broker: eventing/broker/rabbitmq-broker/README.md
         - Accessing CloudEvent traces: eventing/accessing-traces.md
       # Eventing - admin docs
-      - Administrator topics:
+      - 集群管理员主题:
         # Eventing config
         - Eventing configuration:
           - Configure Channel defaults: eventing/configuration/channel-configuration.md
@@ -207,15 +207,15 @@ nav:
           - Configure Kafka Channel defaults: eventing/configuration/kafka-channel-configuration.md
           - Configure event source defaults: eventing/configuration/sources-configuration.md
       # Eventing - observability
-      - Observability:
+      - 可观测性:
         - Collecting logs: eventing/observability/logging/collecting-logs.md
         - Configuring logging: eventing/observability/logging/config-logging.md
         - Collecting metrics: eventing/observability/metrics/collecting-metrics.md
         - Knative Eventing metrics: eventing/observability/metrics/eventing-metrics.md
       # Eventing - troubleshooting
-      - Troubleshooting:
+      - 问题排查:
         - Debugging: eventing/troubleshooting/README.md
-      - Experimental Features:
+      - 实验性特性:
         - About Eventing experimental features: eventing/experimental-features/README.md
         - DeliverySpec.Timeout field: eventing/experimental-features/delivery-timeout.md
         - DeliverySpec.RetryAfterMax field: eventing/experimental-features/delivery-retryafter.md
@@ -227,12 +227,12 @@ nav:
     # Code samples
 ###############################################################################
     - 代码示例:
-      - Code sample overview: samples/README.md
-      - Serving code samples: samples/serving.md
-      - Eventing code samples: samples/eventing.md
+      - 代码示例概述: samples/README.md
+      - Serving示例代码: samples/serving.md
+      - Eventing示例代码: samples/eventing.md
     # Reference docs
     - 参考:
-      - Reference overview: reference/README.md
+      - 参考概述: reference/README.md
       - API:
         - Serving: reference/api/serving-api.md
         - Eventing: reference/api/eventing-api.md
