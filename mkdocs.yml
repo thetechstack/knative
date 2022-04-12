@@ -1,7 +1,7 @@
 INHERIT: config/nav.yml
 
 site_name: Knative中文网
-site_url: https://heapoverflow.cn/knative/
+site_url: https://www.heapoverflow.cn/knative/
 site_description: Knative官方文档中文版
 extra_css:
   - stylesheets/extra.css
