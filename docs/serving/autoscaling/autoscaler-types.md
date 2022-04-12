@@ -1,35 +1,35 @@
-# Supported Autoscaler types
+# 支持的自动扩缩类型
 
-Knative Serving supports the implementation of Knative Pod Autoscaler (KPA) and Kubernetes' Horizontal Pod Autoscaler (HPA). This topic lists the features and limitations of each of these Autoscalers, as well as how to configure them.
+Knative Serving 支持 Knative Pod Autoscaler (KPA) 和 Kubernetes的Pod水平自动扩缩 (HPA)。 本页面列出这些自动扩缩类型的特点和限制，以及如何配置它们。
 
-!!! important
-    If you want to use Kubernetes Horizontal Pod Autoscaler (HPA), you must install it after you install Knative Serving.
-For how to install HPA, see [Install optional Serving extensions](../../install/yaml-install/serving/install-serving-with-yaml.md#install-optional-serving-extensions).
+!!! 重要
+    如果你想要的使用HPA, 你必须在安装Knative Serving之后安装它.
+关于如何安装HPA, 参阅 [安装可选的Serving扩展](../../install/yaml-install/serving/install-serving-with-yaml.md#install-optional-serving-extensions).
 
 ## Knative Pod Autoscaler (KPA)
 
-* Part of the Knative Serving core and enabled by default once Knative Serving is installed.
-* Supports scale to zero functionality.
-* Does not support CPU-based autoscaling.
+* Knative Serving 核心的一部分，安装 Knative Serving 后默认启用。
+* 支持缩容到零的功能。
+* 不支持基于 CPU 的自动扩缩。
 
-## Horizontal Pod Autoscaler (HPA)
+## Pod水平自动扩缩 (HPA)
 
-* Not part of the Knative Serving core, and you must install Knative Serving first.
-* Does not support scale to zero functionality.
-* Supports CPU-based autoscaling.
+* 不是 Knative Serving 核心的一部分，您必须先安装 Knative Serving。
+* 不支持缩容到零的功能。
+* 支持基于 CPU 的自动扩缩。
 
-## Configuring the Autoscaler implementation
+## 配置使用哪种类型的自动扩缩
 
-The type of Autoscaler implementation (KPA or HPA) can be configured by using the `class` annotation.
+自动扩缩的类型(KPA or HPA) 可以通过`class`配置。
 
-* **Global settings key:** `pod-autoscaler-class`
-* **Per-revision annotation key:** `autoscaling.knative.dev/class`
-* **Possible values:** `"kpa.autoscaling.knative.dev"` or `"hpa.autoscaling.knative.dev"`
-* **Default:** `"kpa.autoscaling.knative.dev"`
+* **全局设置使用键:** `pod-autoscaler-class`
+* **对每个版本设置使用键:** `autoscaling.knative.dev/class`
+* **可选值:** `"kpa.autoscaling.knative.dev"` or `"hpa.autoscaling.knative.dev"`
+* **默认:** `"kpa.autoscaling.knative.dev"`
 
-**Example:**
+**例子:**
 
-=== "Per Revision"
+=== "对每个版本设置"
     ```yaml
     apiVersion: serving.knative.dev/v1
     kind: Service
@@ -46,7 +46,7 @@ The type of Autoscaler implementation (KPA or HPA) can be configured by using th
             - image: gcr.io/knative-samples/helloworld-go
     ```
 
-=== "Global (ConfigMap)"
+=== "全局设置 (ConfigMap)"
     ```yaml
     apiVersion: v1
     kind: ConfigMap
@@ -57,7 +57,7 @@ The type of Autoscaler implementation (KPA or HPA) can be configured by using th
      pod-autoscaler-class: "kpa.autoscaling.knative.dev"
     ```
 
-=== "Global (Operator)"
+=== "全局设置 (Operator)"
     ```yaml
     apiVersion: operator.knative.dev/v1alpha1
     kind: KnativeServing
