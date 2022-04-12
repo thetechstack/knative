@@ -1,9 +1,8 @@
-# About YAML-based installation
+# 关于基于YAML的安装
 
-You can install the Serving component, Eventing component, or both on your cluster
-by applying YAML files.
+你可以在Kubernetes集群中使用`kubectl apply` YAML文件来分别安装Serving组件和Eventing组件：
 
 <!--TODO: Add reason to choose this install method -->
 
-- [Install Knative Serving with YAML](serving/install-serving-with-yaml.md)
-- [Install Knative Eventing with YAML](eventing/install-eventing-with-yaml.md)
+- [通过YAML安装Knative Serving](serving/install-serving-with-yaml.md)
+- [通过YAML安装Knative Eventing](eventing/install-eventing-with-yaml.md)
