@@ -1,9 +1,9 @@
-# Configuring scale to zero
+# 配置缩容到零
 
-!!! warning
-    Scale to zero can only be enabled if you are using the KnativePodAutoscaler (KPA), and can only be configured globally. For more information about using KPA or global configuration, see the documentation on [Supported Autoscaler types](autoscaler-types.md).
+!!! 警告
+    只有当你使用KnativePodAutoscaler (KPA)时才可以启用缩容到零, 并且只能全局配置。 有关使用 KPA 或全局配置的更多信息，请参阅[支持的自动扩缩类型](autoscaler-types.md).
 
-## Enable scale to zero
+## 启用缩容到零
 
 The scale to zero value controls whether Knative allows replicas to scale down to zero (if set to `true`), or stop at 1 replica if set to `false`.
 
