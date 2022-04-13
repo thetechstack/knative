@@ -1,59 +1,57 @@
-# Installing Knative using the Operator
+# 通过Operator安装Knative
 
-Knative provides a [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to install, configure and manage Knative.
-You can install the Serving component, Eventing component, or both on your cluster.
+Knative 提供了一个[Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)来安装、配置和管理 Knative。您可以在集群上安装 Serving 组件、Eventing 组件或两者。
 
 --8<-- "prerequisites.md"
 
-## Install the Knative Operator
+## 安装Knative Operator
 
-Before you install the Knative Serving and Eventing components, first install the Knative Operator.
+在安装 Knative Serving 和 Eventing 组件之前，请先安装 Knative Operator。
 
-### Install the latest Knative Operator release
+### 安装最新的 Knative Operator 版本
 
-To install the latest stable Operator release, run the command:
+要安装最新的稳定 Operator 版本，请运行以下命令：
 
 ```bash
 kubectl apply -f {{artifact(org="knative",repo="operator",file="operator.yaml" )}}
 ```
 
-You can find information about the released versions of the Knative Operator on the [releases page](https://github.com/knative/operator/releases).
+您可以在[发布页面](https://github.com/knative/operator/releases)上找到有关 Knative Operator 已发布版本的信息。
 
-### Verify your Knative Operator installation
+### 验证您的 Knative Operator 安装
 
-1. Because the Operator is installed to the `default` namespace, ensure you set the current namespace to `default` by running the command:
+1. 由于 Operator 安装到`default`命名空间，因此请通过运行以下命令将确保当前命名空间设置为`default`：
 
     ```bash
     kubectl config set-context --current --namespace=default
     ```
 
-1. Check the Operator deployment status by running the command:
+1. 通过运行以下命令检查 Operator deployment状态：
 
     ```bash
     kubectl get deployment knative-operator
     ```
 
-    If the Operator is installed correctly, the deployment shows a `Ready` status:
+    如果 Operator 安装正确， deployment会显示以下Ready状态：
 
     ```{.bash .no-copy}
     NAME               READY   UP-TO-DATE   AVAILABLE   AGE
     knative-operator   1/1     1            1           19h
     ```
 
-### Track the log
+### 跟踪日志
 
-To track the log of the Operator, run the command:
+要跟踪 Operator 的日志，请运行以下命令：
 
 ```bash
 kubectl logs -f deploy/knative-operator
 ```
 
-## Installing the Knative Serving component
+## 安装 Knative Serving 组件
 
-To install Knative Serving you must create a custom resource (CR), add a networking
-layer to the CR, and configure DNS.
+要安装 Knative Serving，您必须创建自定义资源 (Custom Resource，CR)，将网络层添加到 CR，并配置 DNS。
 
-### Create the Knative Serving custom resource
+### 创建 Knative Serving 自定义资源
 
 === "Install the current version (default)"
 
