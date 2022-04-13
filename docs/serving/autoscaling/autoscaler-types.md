@@ -23,13 +23,13 @@ Knative Serving 支持 Knative Pod Autoscaler (KPA) 和 Kubernetes的Pod水平�
 自动扩缩的类型(KPA or HPA) 可以通过`class`配置。
 
 * **全局设置使用键:** `pod-autoscaler-class`
-* **对每个版本设置使用键:** `autoscaling.knative.dev/class`
+* **对每个Revision设置使用键:** `autoscaling.knative.dev/class`
 * **可选值:** `"kpa.autoscaling.knative.dev"` or `"hpa.autoscaling.knative.dev"`
 * **默认:** `"kpa.autoscaling.knative.dev"`
 
 **例子:**
 
-=== "对每个版本设置"
+=== "对每个Revision设置"
     ```yaml
     apiVersion: serving.knative.dev/v1
     kind: Service
