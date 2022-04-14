@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cli-tools" class="md-skip">
+        <a href="#cli" class="md-skip">
           跳转至
         </a>
       
@@ -1048,16 +1048,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#connecting-cli-tools-to-your-cluster" class="md-nav__link">
-    Connecting CLI tools to your cluster
+  <a href="#cli_1" class="md-nav__link">
+    将 CLI 工具连接到集群
   </a>
   
-    <nav class="md-nav" aria-label="Connecting CLI tools to your cluster">
+    <nav class="md-nav" aria-label="将 CLI 工具连接到集群">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#using-kubeconfig-files-with-your-platform" class="md-nav__link">
-    Using kubeconfig files with your platform
+  <a href="#kubeconfig" class="md-nav__link">
+    在您的平台上使用 kubeconfig 文件
   </a>
   
 </li>
@@ -4322,16 +4322,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#connecting-cli-tools-to-your-cluster" class="md-nav__link">
-    Connecting CLI tools to your cluster
+  <a href="#cli_1" class="md-nav__link">
+    将 CLI 工具连接到集群
   </a>
   
-    <nav class="md-nav" aria-label="Connecting CLI tools to your cluster">
+    <nav class="md-nav" aria-label="将 CLI 工具连接到集群">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#using-kubeconfig-files-with-your-platform" class="md-nav__link">
-    Using kubeconfig files with your platform
+  <a href="#kubeconfig" class="md-nav__link">
+    在您的平台上使用 kubeconfig 文件
   </a>
   
 </li>
@@ -4359,46 +4359,39 @@
 
 
 
-<h1 id="cli-tools">CLI tools<a class="headerlink" href="#cli-tools" title="Permanent link">&para;</a></h1>
-<p>The following CLI tools are supported for use with Knative.</p>
+<h1 id="cli">CLI 工具<a class="headerlink" href="#cli" title="Permanent link">&para;</a></h1>
+<p>以下 CLI 工具支持与 Knative 一起使用。</p>
 <h2 id="kubectl">kubectl<a class="headerlink" href="#kubectl" title="Permanent link">&para;</a></h2>
-<p>You can use <code>kubectl</code> to apply the YAML files required to install Knative components, and also to create Knative resources, such as services and event sources using YAML.</p>
-<p>See <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/" target="_blank">Install and Set Up <code>kubectl</code></a>.</p>
+<p>您可以通过<code>kubectl apply</code> YAML 文件来安装Knative 组件 ，也可以apply YAML文件来创建 Knative 资源，例如services和事件源。</p>
+<p>参阅 <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/" target="_blank">安装和设置<code>kubectl</code></a>.</p>
 <h2 id="kn">kn<a class="headerlink" href="#kn" title="Permanent link">&para;</a></h2>
-<p><code>kn</code> provides a quick and easy interface for creating Knative resources such as services and event sources, without the need to create or modify YAML files directly. <code>kn</code> also simplifies completion of otherwise complex procedures such as autoscaling and traffic splitting.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><code>kn</code> cannot be used to install Knative components such as Serving or Eventing.</p>
+<p><code>kn</code>为创建Service和事件源等 Knative 资源提供了一个快速简单的方式，无需直接创建或修改 YAML 文件。<code>kn</code>还简化了其他复杂过程的完成，例如自动扩缩和流量拆分。</p>
+<div class="admonition 注意">
+<p class="admonition-title">注意</p>
+<p><code>kn</code> 不能用于安装 Serving 或 Eventing 等 Knative 组件。</p>
 </div>
-<p>See <a href="install-kn/">Installing <code>kn</code></a>.</p>
-<h2 id="connecting-cli-tools-to-your-cluster">Connecting CLI tools to your cluster<a class="headerlink" href="#connecting-cli-tools-to-your-cluster" title="Permanent link">&para;</a></h2>
-<p>After you have installed <code>kubectl</code> or <code>kn</code>, these tools will search for the <code>kubeconfig</code> file of your cluster in the default location of <code>$HOME/.kube/config</code>, and will use this file to connect to the cluster. A <code>kubeconfig</code> file is usually automatically created when you create a Kubernetes cluster.</p>
-<p>You can also set the environment variable <code>$KUBECONFIG</code>, and point it to the kubeconfig file.</p>
-<p>Using the <code>kn</code> CLI, you can specify the following options to connect to the cluster:</p>
+<p>参阅 <a href="install-kn/">安装 <code>kn</code></a>.</p>
+<h2 id="cli_1">将 CLI 工具连接到集群<a class="headerlink" href="#cli_1" title="Permanent link">&para;</a></h2>
+<p>安装好kubectl或kn后，这些工具会在<code>$HOME/.kube/config</code>设置的位置找到你的 <code>kubeconfig</code>文件，并使用该文件连接到集群。<code>kubeconfig</code>文件通常在你创建 Kubernetes 集群自动创建。</p>
+<p>您还可以设置环境变量 <code>$KUBECONFIG</code>，将其指向 kubeconfig 文件。</p>
+<p>使用 <code>kn</code> CLI，您可以指定以下选项以连接到集群：</p>
 <ul>
-<li><code>--kubeconfig</code>: use this option to point to the <code>kubeconfig</code> file. This is equivalent to setting the <code>$KUBECONFIG</code> environment variable.</li>
-<li><code>--context</code>: use this option to specify the name of a context from the existing <code>kubeconfig</code> file. Use one of the contexts from the output of <code>kubectl config get-contexts</code>.</li>
+<li><code>--kubeconfig</code>: 使用此选项指向kubeconfig文件。这相当于设置<code>$KUBECONFIG</code>环境变量。</li>
+<li><code>--context</code>: 使用此选项指定现有kubeconfig文件中的上下文名称。使用<code>kubectl config get-contexts</code>的输出中的上下文之一。</li>
 </ul>
-<p>You can also specify a config file in the following ways:</p>
+<p>您还可以通过以下方式指定配置文件：</p>
 <ul>
-<li>
-<p>Setting the environment variable <code>$KUBECONFIG</code>, and point it to the kubeconfig file.</p>
-</li>
-<li>
-<p>Using the <code>kn</code> CLI <code>--config</code> option, for example, <code>kn service list --config path/to/config.yaml</code>. The default config is at <code>~/.config/kn/config.yaml</code>.</p>
-</li>
+<li>使用<code>kn</code> CLI  <code>--config</code>选项，例如 <code>kn service list --config path/to/config.yaml</code>. 默认配置位于<code>~/.config/kn/config.yaml</code></li>
 </ul>
-<p>For more information about <code>kubeconfig</code> files, see
-<a href="https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/" target="_blank">Organizing Cluster Access Using kubeconfig Files</a>.</p>
-<h3 id="using-kubeconfig-files-with-your-platform">Using kubeconfig files with your platform<a class="headerlink" href="#using-kubeconfig-files-with-your-platform" title="Permanent link">&para;</a></h3>
-<p>Instructions for using <code>kubeconfig</code> files are available for the following platforms:</p>
+<p>有关kubeconfig文件的更多信息，请参阅 <a href="https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/" target="_blank">使用 kubeconfig 文件访问集群</a>。</p>
+<h3 id="kubeconfig">在您的平台上使用 kubeconfig 文件<a class="headerlink" href="#kubeconfig" title="Permanent link">&para;</a></h3>
+<p>以下平台提供了使用kubeconfig文件的说明：</p>
 <ul>
 <li><a href="https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html" target="_blank">Amazon EKS</a></li>
 <li><a href="https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl" target="_blank">Google GKE</a></li>
 <li><a href="https://cloud.ibm.com/docs/containers?topic=containers-getting-started" target="_blank">IBM IKS</a></li>
 <li><a href="https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/administrator-cli-commands.html#create-kubeconfig" target="_blank">Red Hat OpenShift Cloud Platform</a></li>
-<li>Starting <a href="https://minikube.sigs.k8s.io/docs/start/" target="_blank">minikube</a> writes this file
-automatically, or provides an appropriate context in an existing configuration file.</li>
+<li>启动<a href="https://minikube.sigs.k8s.io/docs/start/" target="_blank">minikube</a> 会自动写入此文件，或在现有配置文件中提供适当的上下文。</li>
 </ul>
 
               
