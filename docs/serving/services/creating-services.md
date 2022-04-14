@@ -1,25 +1,25 @@
-# Creating a Service
+# 创建一个Service
 
-You can create a Knative service by applying a YAML file or using the `kn service create` CLI command.
+你可用通过apply YAML文件或使用`kn service create`来创建Knative service。
 
-## Prerequisites
+## 前提条件
 
-To create a Knative service, you will need:
+要创建 Knative 服务，您需要：
 
-* A Kubernetes cluster with Knative Serving installed. For more information, see [Installing Knative Serving](../../install/yaml-install/serving/install-serving-with-yaml.md).
-* Optional: To use the `kn service create` command, you must [install the `kn` CLI](../../install/client/configure-kn.md).
+* 安装了 Knative Serving 的 Kubernetes 集群。有关更多信息，请参阅[安装 Knative Serving](../../install/yaml-install/serving/install-serving-with-yaml.md)。
+* 可选：要使用该`kn service create`命令，您必须[安装`kn` CLI]((../../install/client/configure-kn.md).)。
 
-## Procedure
+## 步骤
 
-!!! tip
+!!! 提示
+    
+    以下命令创建`helloworld-go`示例service。您可以修改这些命令，包括容器镜像 URL，以将您自己的应用程序部署为 Knative 服务。
 
-    The following commands create a `helloworld-go` sample service. You can modify these commands, including the container image URL, to deploy your own application as a Knative service.
-
-Create a sample service:
+创建示例服务：
 
 === "Apply YAML"
 
-    1. Create a YAML file using the following example:
+    1. 使用以下示例创建 YAML 文件:
 
         ```yaml
         apiVersion: serving.knative.dev/v1
@@ -37,12 +37,13 @@ Create a sample service:
                       value: "Go Sample v1"
         ```
 
-    1. Apply the YAML file by running the command:
+    1. 通过运行以下命令应用 YAML 文件：
 
         ```bash
         kubectl apply -f <filename>.yaml
         ```
-        Where `<filename>` is the name of the file you created in the previous step.
+        
+        `<filename>`您在上一步中创建的文件的名称。
 
 === "kn CLI"
 
@@ -50,8 +51,8 @@ Create a sample service:
     kn service create helloworld-go --image gcr.io/knative-samples/helloworld-go
     ```
 
-After the service has been created, Knative performs the following tasks:
+创建service后，Knative 会执行以下任务：
 
-* Creates a new immutable revision for this version of the app.
-* Performs network programming to create a route, ingress, service, and load balancer for your app.
-* Automatically scales your pods up and down based on traffic, including to zero active pods.
+* 为此版本的应用程序创建一个新的不可变的revision。
+* 执行网络相关操作以为您的应用程序创建路由、ingress、(kubernetes)service和负载均衡器。
+* 根据流量自动缩放您的 Pod，包括缩容到零。
