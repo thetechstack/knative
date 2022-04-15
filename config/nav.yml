@@ -10,6 +10,7 @@ nav:
 ###############################################################################
     - 教程:
         - 教程介绍: getting-started/README.md
+        - 什么是Knative Serving:  getting-started/what-is-knative-serving.md
         - 通过quickstart安装Knative: getting-started/quickstart-install.md
         - 使用Knative Serving:
           - 第一个Knative Service: getting-started/first-service.md
@@ -69,6 +70,7 @@ nav:
     # Serving
 ###############################################################################
     - Serving:
+      - 什么是Knative Serving:  getting-started/what-is-knative-serving.md
       - Knative Serving 概述: serving/README.md
       - 自动扩缩:
         - 关于自动扩缩: serving/autoscaling/README.md
