@@ -70,7 +70,6 @@ nav:
     # Serving
 ###############################################################################
     - Serving:
-      - 什么是Knative Serving:  getting-started/what-is-knative-serving.md
       - Knative Serving 概述: serving/README.md
       - 自动扩缩:
         - 关于自动扩缩: serving/autoscaling/README.md
